@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+area["name"="Trento"]->.searchArea;
+(
+  node["amenity"="parking"](area.searchArea);
+  way["amenity"="parking"](area.searchArea);
+  relation["amenity"="parking"](area.searchArea);
+);
+out center;

@@ -1,0 +1,9 @@
+[out:json];
+area["name"="Trentino-Alto Adige/Südtirol"];
+(
+  way["highway"="cycleway"](area);
+  relation["route"="bicycle"](area);
+);
+out body;
+>;
+out skel qt;

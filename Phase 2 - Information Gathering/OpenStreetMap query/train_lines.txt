@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+area["name"="Trentino-Alto Adige/Südtirol"]->.searchArea;
+(
+  way["railway"="rail"](area.searchArea);
+);
+out body;
+>;
+out skel qt;
