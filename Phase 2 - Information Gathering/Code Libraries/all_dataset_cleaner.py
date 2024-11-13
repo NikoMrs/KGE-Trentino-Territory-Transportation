@@ -7,6 +7,7 @@ from shapely.geometry import Point, LineString
 import pyproj
 import os
 from trentino_trasporti import urbano, extraurbano
+import translators as ts
 
 
 def process_point(wkt):
@@ -47,7 +48,7 @@ def process_linestring(wkt):
     return f"{lat:.7f}", f"{lon:.7f}"
 
 
-def bike_sharing():
+def bike_sharing_1():
     input_csv = "../Datasets/raw datasets/bike_sharing.csv"
     output_csv = "../Datasets/cleaned datasets/_bike_sharing.csv"
 
@@ -64,9 +65,38 @@ def bike_sharing():
 
     # Extracts lat/lon
     df['longitude'], df['latitude'] = transformer.transform(df['WKT'].str.extract(r'POINT \(([^ ]+) ([^ ]+)\)')[0], df['WKT'].str.extract(r'POINT \(([^ ]+) ([^ ]+)\)')[1])
+    df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
 
     # Select only wanted columns
     df = df[['id', 'description', 'capacity', 'latitude', 'longitude']]
+
+    # Save in CSV format
+    df.to_csv(output_csv, sep=';', index=False)
+    print(f"File saved as {output_csv}")
+
+
+def bike_sharing_2():
+    input_json = "../Datasets/raw datasets/centro_in_bici.csv"
+    output_csv = "../Datasets/cleaned datasets/_centro_in_bici.csv"
+
+    # Loads the CSV files
+    df = pd.read_csv(input_json, delimiter=";")
+
+    # Extracts lat/lon
+    df["latitude"], df["longitude"] = zip(*df['WKT'].apply(process_point))
+
+    df.rename(columns={
+        "cicloposteggi": "capacity",
+        "desc": "description",
+    }, inplace=True)
+
+    df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
+
+    # Hand-crafted id
+    df["id"] = pd.Series(range(1, df.size))
+
+    # Select only wanted columns
+    df = df[["id", "description", "capacity", "latitude", "longitude"]]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -83,8 +113,15 @@ def scooter_sharing():
     # Extracts lat/lon
     df['latitude'], df['longitude'] = zip(*df['WKT'].apply(process_point))
 
+    df.rename(columns={
+        "note": "description",
+    }, inplace=True)
+
+    df["description"] = df["description"].apply(
+        lambda item: ts.translate_text(item, from_language="it", to_language="en"))
+
     # Select only wanted columns
-    df = df[['id', 'note', 'latitude', 'longitude']]
+    df = df[['id', 'description', 'latitude', 'longitude']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -124,7 +161,8 @@ def car_sharing():
 
     # Extracts lat/lon
     df['latitude'], df['longitude'] = zip(*df['WKT'].apply(process_point))
-    df["description"] = df["via"].apply(lambda item: re.search(r'\((.*?)\)', item).group(1))
+    df["description"] = df["via"].apply(lambda item: ts.translate_text(re.search(r'\((.*?)\)', item).group(1), from_language="it", to_language="en"))
+    # df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
 
     df.rename(columns={
         "auto": "capacity",
@@ -193,6 +231,8 @@ def bike_rack_1():
     }, inplace=True)
 
     df["type"] = df["type"].apply(lambda x: x.split("_")[1])
+    df.loc[df["type"] == "tradizionale", "type"] = "traditional"
+    df.loc[df["type"] == "bloccatelaio", "type"] = "frame lock"
 
     # Select only wanted columns
     df = df[["id", "type", "capacity", "latitude", "longitude"]]
@@ -228,31 +268,6 @@ def bike_rack_2():
     print(f"File saved as {output_csv}")
 
 
-def bike_rack_3():
-    input_json = "../Datasets/raw datasets/centro_in_bici.csv"
-    output_csv = "../Datasets/cleaned datasets/_centro_in_bici.csv"
-
-    # Loads the CSV files
-    df = pd.read_csv(input_json, delimiter=";")
-
-    # Extracts lat/lon
-    df["latitude"], df["longitude"] = zip(*df['WKT'].apply(process_point))
-
-    df.rename(columns={
-        "cicloposteggi": "capacity",
-    }, inplace=True)
-
-    # Hand-crafted id
-    df["id"] = pd.Series(range(1, df.size))
-
-    # Select only wanted columns
-    df = df[["id", "capacity", "latitude", "longitude"]]
-
-    # Save in CSV format
-    df.to_csv(output_csv, sep=';', index=False)
-    print(f"File saved as {output_csv}")
-
-
 if __name__ == '__main__':
 
     dir = "../Datasets/cleaned datasets"
@@ -260,14 +275,14 @@ if __name__ == '__main__':
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    bike_sharing()
+    bike_sharing_1()
+    bike_sharing_2()
     scooter_sharing()
     taxi()
     car_sharing()
     parking_facility()
     bike_rack_1()
     bike_rack_2()
-    bike_rack_3()
 
     print("\nTrentino trasporti Urbano...")
     urbano()

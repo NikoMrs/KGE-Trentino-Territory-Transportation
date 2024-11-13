@@ -112,6 +112,7 @@ def trips(folder):
         df["wheelchair_accessible"] = df["wheelchair_accessible"].fillna(0)
     else:
         df["wheelchair_accessible"] = 0
+    df["wheelchair_accessible"] = df["wheelchair_accessible"].astype(int)
 
     # Put the trip_id in the first column
     # df = df[['trip_id', 'line_id', 'schedule_id', 'headsign', 'direction', 'wheelchair_accessible']]
