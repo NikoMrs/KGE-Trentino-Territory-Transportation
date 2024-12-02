@@ -1,4 +1,4 @@
-stop_id;stop_name;stop_lat;stop_lon;wheelchair_accessible
+stop_id;stop_name;stop_lat;stop_lon;wheelchair_boarding
 1;Baselga Del Bondone;46.078354;11.047183;2.0
 2;Baselga Del Bondone;46.078528;11.047586;1.0
 3;Belvedere;46.044409;11.105369;0.0

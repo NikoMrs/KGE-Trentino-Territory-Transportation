@@ -43,7 +43,7 @@ def stops(folder):
 
     # df.rename(columns={"stop_lat": "latitude"}, inplace=True)
     # df.rename(columns={"stop_lon": "longitude"}, inplace=True)
-    df.rename(columns={"wheelchair_boarding": "wheelchair_accessible"}, inplace=True)
+    # df.rename(columns={"wheelchair_boarding": "wheelchair_accessible"}, inplace=True)
     # df.rename(columns={"stop_name": "name"}, inplace=True)
 
     # Save in CSV format
@@ -90,8 +90,12 @@ def trips(folder):
     input_csv = f"../Datasets/raw datasets/{folder}/trips.txt"
     output_csv = f"../Datasets/cleaned datasets/{folder}/_trips.csv"
 
+    routes_csv = f"../Datasets/raw datasets/{folder}/routes.txt"
+
     # Loads the CSV files
     df = pd.read_csv(input_csv)
+    routes_df = pd.read_csv(routes_csv)
+    join = pd.merge(df, routes_df, on='route_id', how='left') 
 
     # Remove columns
     to_remove = ["shape_id"]
@@ -108,15 +112,18 @@ def trips(folder):
 
     # TODO modificare?
     # Replace all empty field with the value 0 that means Not Available or Not Specified
+    df["bike_slots"] = 0
     if folder == "Urbano":
         df["wheelchair_accessible"] = df["wheelchair_accessible"].fillna(0)
     else:
         df["wheelchair_accessible"] = 0
+        df.loc[join['route_type'] == 2, 'bike_slots'] = 6
+        
     df["wheelchair_accessible"] = df["wheelchair_accessible"].astype(int)
 
     # Put the trip_id in the first column
     # df = df[['trip_id', 'line_id', 'schedule_id', 'headsign', 'direction', 'wheelchair_accessible']]
-    df = df[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'direction_id', 'wheelchair_accessible']]
+    df = df[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'direction_id', 'wheelchair_accessible', 'bike_slots']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
