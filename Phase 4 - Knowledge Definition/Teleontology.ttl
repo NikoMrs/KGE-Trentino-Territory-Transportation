@@ -1719,6 +1719,7 @@ This property can be used alongside the license property which indicates license
 
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/locates_a
 :locates_a rdf:type owl:ObjectProperty ;
+           rdfs:domain :Point ;
            rdfs:range :Stop .
 
 
@@ -1991,7 +1992,11 @@ This property can be used alongside the license property which indicates license
 
 
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Point
-:Point rdf:type owl:Class .
+:Point rdf:type owl:Class ;
+       :conceptID "UKC-45507" ;
+       :isEtype "true"^^xsd:boolean ;
+       rdfs:comment "The precise location of something; a spatially limited location"@en ;
+       rdfs:label "Point"@en .
 
 
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Stop
