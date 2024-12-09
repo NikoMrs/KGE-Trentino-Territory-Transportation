@@ -1748,6 +1748,12 @@ This property can be used alongside the license property which indicates license
 #    Data properties
 #################################################################
 
+###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory&Transportation#Identifier
+:Identifier rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/arrival_time
 :arrival_time rdf:type owl:DatatypeProperty ;
               rdfs:domain :Stop_event ;

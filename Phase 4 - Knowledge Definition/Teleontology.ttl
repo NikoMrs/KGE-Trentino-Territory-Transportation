@@ -1629,7 +1629,7 @@ This property can be used alongside the license property which indicates license
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory&Transportation#Contains
+###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Contains
 :Contains rdf:type owl:ObjectProperty ;
           rdfs:domain :Transportation_trip ;
           rdfs:range :Stop_event .
@@ -1691,6 +1691,12 @@ This property can be used alongside the license property which indicates license
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory&Transportation#Identifier
+:Identifier rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range xsd:string .
+
 
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/arrival_time
 :arrival_time rdf:type owl:DatatypeProperty ;
