@@ -1692,9 +1692,21 @@ This property can be used alongside the license property which indicates license
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory&Transportation#Identifier
+###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Identifier
 :Identifier rdf:type owl:DatatypeProperty ;
-            rdfs:domain owl:Thing ;
+            rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking> ,
+                        <http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing> ,
+                        <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
+                        <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
+                        <http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> ,
+                        :City ,
+                        :Stop ,
+                        :Taxi_stand ,
+                        :Transit_line ,
+                        :Transportation_schedule ,
+                        :Transportation_special_schedule ,
+                        :Transportation_system ,
+                        :Transportation_trip ;
             rdfs:range xsd:string .
 
 
