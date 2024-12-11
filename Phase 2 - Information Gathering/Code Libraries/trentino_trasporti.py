@@ -40,6 +40,7 @@ def stops(folder):
         df['wheelchair_boarding'] = df['wheelchair_boarding'].replace("", 0).fillna(0)
     else:
         df["wheelchair_boarding"] = 0
+    df['wheelchair_boarding'] = df['wheelchair_boarding'].astype(int)
 
     # df.rename(columns={"stop_lat": "latitude"}, inplace=True)
     # df.rename(columns={"stop_lon": "longitude"}, inplace=True)
@@ -50,6 +51,9 @@ def stops(folder):
     df.to_csv(output_csv, sep=';', index=False)
     print(f"File saved as {output_csv}")
 
+def extract_days(row):
+    days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+    return "["+ ', '.join([day for day, value in row.items() if value == 1]) + "]"
 
 def calendar(folder):
     input_csv = f"../Datasets/raw datasets/{folder}/calendar.txt"
@@ -58,9 +62,8 @@ def calendar(folder):
     # Loads the CSV files
     df = pd.read_csv(input_csv)
 
-    # df.rename(columns={
-    #    "service_id": "schedule_id",
-    # }, inplace=True)
+    df['byDay'] = df.apply(extract_days, axis=1)
+    df = df[['service_id', 'byDay', 'start_date', 'end_date']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
