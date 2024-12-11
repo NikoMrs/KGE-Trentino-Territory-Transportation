@@ -65,6 +65,8 @@ def bike_sharing_1():
 
     # Extracts lat/lon
     df['longitude'], df['latitude'] = transformer.transform(df['WKT'].str.extract(r'POINT \(([^ ]+) ([^ ]+)\)')[0], df['WKT'].str.extract(r'POINT \(([^ ]+) ([^ ]+)\)')[1])
+    df["latitude"] = df["latitude"].map(lambda x: f"{x:.7f}")
+    df["longitude"] = df["longitude"].map(lambda x: f"{x:.7f}")
     df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
 
     # Select only wanted columns
