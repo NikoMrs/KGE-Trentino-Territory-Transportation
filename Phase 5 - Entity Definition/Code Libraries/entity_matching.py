@@ -53,7 +53,7 @@ def bike_parking_conflict():
         else:
             print(row["id"])
 
-    s1.to_csv("../Datasets/cleaned datasets/bike_parking.csv", sep=";", index=False)
+    s1.to_csv("../Datasets/cleaned datasets/bicycle_parking.csv", sep=";", index=False)
     
 
 if __name__ == '__main__':
