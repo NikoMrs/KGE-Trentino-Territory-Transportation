@@ -1788,6 +1788,7 @@ This property can be used alongside the license property which indicates license
                       <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
                       <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
                       <http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> ,
+                      :City ,
                       :Point ,
                       :Taxi_stand ;
           rdfs:range xsd:float .
@@ -1818,6 +1819,7 @@ This property can be used alongside the license property which indicates license
                        <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
                        <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
                        <http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> ,
+                       :City ,
                        :Point ,
                        :Taxi_stand ;
            rdfs:range xsd:float .

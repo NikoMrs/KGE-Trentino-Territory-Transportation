@@ -1932,6 +1932,7 @@ This property can be used alongside the license property which indicates license
 
 ###  http://knowdive.disi.unitn.it/etype#City
 :City rdf:type owl:Class ;
+      rdfs:subClassOf <https://schema.org/Place> ;
       :conceptID "UKC-45148" ;
       :isEtype "true"^^xsd:boolean ;
       rdfs:comment "A large and densely populated urban area; may include several independent administrative districts"@en ;
