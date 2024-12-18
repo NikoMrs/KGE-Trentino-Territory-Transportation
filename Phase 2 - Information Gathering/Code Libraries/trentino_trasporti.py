@@ -148,6 +148,36 @@ def stop_times(folder):
     print(f"File saved as {output_csv}")
 
 
+def agency(folder):
+    input_csv = f"../Datasets/raw datasets/{folder}/agency.txt"
+    output_csv = f"../Datasets/cleaned datasets/{folder}/transportation_systems.csv"
+
+    # Loads the CSV files
+    df = pd.read_csv(input_csv)
+
+    df["city_id"] = 1
+    df["valid_from"] = 20240909
+    df["valid_through"] = 20250627
+
+    df = df[['agency_id', 'agency_name', 'agency_url', 'agency_phone', 'valid_from', 'valid_through', 'city_id']]
+
+    # Adding additional raw due to Karma bug
+    new_row = {
+        'agency_id': 13,
+        'agency_name': 'Dolomitibus S.p.A.',
+        'agency_url': 'https://www.dolomitibus.it/',
+        'agency_phone': '+39 0437 941711',
+        'valid_from': 20240909,
+        'valid_through': 20250627,
+        'city_id': 2
+    }
+    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+
+    # Save in CSV format
+    df.to_csv(output_csv, sep=';', index=False)
+    print(f"File saved as {output_csv}")
+
+
 def urbano():
 
     dir = "../Datasets/cleaned datasets/Urbano"
@@ -161,6 +191,7 @@ def urbano():
     special_schedule("Urbano")
     trips("Urbano")
     stop_times("Urbano")
+    agency("Urbano")
 
 
 def extraurbano():
@@ -176,6 +207,7 @@ def extraurbano():
     special_schedule("Extraurbano")
     trips("Extraurbano")
     stop_times("Extraurbano")
+    agency("Extraurbano")
 
 
 if __name__ == '__main__':

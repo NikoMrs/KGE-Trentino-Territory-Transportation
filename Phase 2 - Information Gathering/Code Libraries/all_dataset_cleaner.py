@@ -278,6 +278,18 @@ def bike_rack_2():
     print(f"File saved as {output_csv}")
 
 
+def city():
+    input_json = "../Datasets/raw datasets/city.csv"
+    output_csv = "../Datasets/cleaned datasets/_city.csv"
+
+    # Loads the CSV files
+    df = pd.read_csv(input_json, delimiter=";")
+
+    # Save in CSV format
+    df.to_csv(output_csv, sep=';', index=False)
+    print(f"File saved as {output_csv}")
+    
+
 if __name__ == '__main__':
 
     dir = "../Datasets/cleaned datasets"
