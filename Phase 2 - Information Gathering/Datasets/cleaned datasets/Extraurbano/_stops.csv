@@ -1,4 +1,4 @@
-stop_id;stop_name;stop_lat;stop_lon;wheelchair_boarding
+stop_id;stop_name;latitude;longitude;wheelchair_boarding
 1;Trento. Autostazione;46.070785;11.118457;0
 2;Trento. Solteri Bivio Ss.12;46.084046;11.119728;0
 3;Trento. Bren Center;46.091322;11.11566;0

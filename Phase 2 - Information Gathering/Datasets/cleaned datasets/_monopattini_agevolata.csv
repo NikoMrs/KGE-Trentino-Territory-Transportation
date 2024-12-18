@@ -1,40 +1,40 @@
-id;description;latitude;longitude
-4;on the north-west side of the intersection with via Madruzzo;46.0636459;11.1193733
-5;east side, at number 49;46.0611310;11.1249033
-7;west side, at number 12;46.0611265;11.1217183
-9;south side, at number 5;46.0952341;11.1177067
-14;in continuation of the E-motion bike sharing station;46.0442332;11.1282765
-15;west side, immediately south of the building identified by house number 99;46.0839529;11.1194493
-38;north side, at house numbers 22-26;46.0702246;11.1203414
-23;(west side) at civ. 150;46.0480246;11.1336367
-26;(south side) at number 1;46.0591314;11.1273021
-2;west side, near house number 28;46.0662450;11.1174404
-3;west side, near house number 38;46.0670441;11.1188404
-6;near the E-motion bike sharing station;46.0651904;11.1273748
-8;near the student residence;46.0732969;11.1183394
-10;near the E-motion bike sharing station and taxi stalls;46.0752016;11.1238536
-11;in the widening near the irrigation ditch;46.0672421;11.1269466
-12;south side, near the intersection with Largo Donatori Volontari del Sangue;46.0562571;11.1308766
-13;east side, near civ. 79;46.0629675;11.1239045
-16;near the entrance to the Galileo Galilei high school, replacing some motorcycle stalls;46.0641242;11.1352948
-18;near the S. Dorigoni pass;46.0714186;11.1244086
-19;near the intersection with via Comboni;46.0818888;11.1224686
-20;north-west side, near house number 1;46.0724599;11.1244377
-21;south side, near the railway pedestrian underpass (east side);46.0679935;11.1167155
-37;west side, near the intersection with via Segantini;46.0736024;11.1207444
-22;(west side) near the intersection with via Fermi;46.0482030;11.1288170
-24;(south side) near civ. 50;46.0581452;11.1213477
-25;(south side) near the intersection with via San Pio X;46.0558633;11.1202415
-27;(south side) near civ. 6;46.0697443;11.1217556
-29;(south side) near the intersection with the Carbonari passage;46.0858553;11.1205957
-31;(west side) near civ.1;46.0769975;11.1192377
-1;south side flowerbed near the intersection with viale della Costituzione and viale Olivetti;46.0604611;11.1152764
-32;(south side) near the intersection with Piazza S. Maria Maggiore;46.0686882;11.1202160
-33;(south side) near civ. 3;46.0705945;11.1134495
-34;(north side) near the intersection with Piazza Vittoria;46.0669637;11.1232106
-35;(south side) near civ. 12;46.0652439;11.1225454
-36;(north side) near the intersection with Corso III Novembre;46.0600571;11.1261622
-28;(west side) inside the parking area located near civ.133;46.0833040;11.1142709
-39;"in the parking area called ""Area ex Zuffo"" near the entrance to the ""Bike Parking Zuffo""";46.0751479;11.1103038
-41;"in the parking area called ""Monte Baldo"" near the west access to the same area";46.0574805;11.1128524
-30;(south side) near the Trento-Male' railway line station access;46.0901010;11.1133593
+id;description;latitude;longitude;city_id
+4;on the north-west side of the intersection with via Madruzzo;46.0636459;11.1193733;1
+5;east side, at number 49;46.0611310;11.1249033;1
+7;west side, at number 12;46.0611265;11.1217183;1
+9;south side, at number 5;46.0952341;11.1177067;1
+14;in continuation of the E-motion bike sharing station;46.0442332;11.1282765;1
+15;west side, immediately south of the building identified by house number 99;46.0839529;11.1194493;1
+38;north side, at house numbers 22-26;46.0702246;11.1203414;1
+23;(west side) at civ. 150;46.0480246;11.1336367;1
+26;(south side) at number 1;46.0591314;11.1273021;1
+2;west side, near house number 28;46.0662450;11.1174404;1
+3;west side, near house number 38;46.0670441;11.1188404;1
+6;near the E-motion bike sharing station;46.0651904;11.1273748;1
+8;near the student residence;46.0732969;11.1183394;1
+10;near the E-motion bike sharing station and taxi stalls;46.0752016;11.1238536;1
+11;in the widening near the irrigation ditch;46.0672421;11.1269466;1
+12;south side, near the intersection with Largo Donatori Volontari del Sangue;46.0562571;11.1308766;1
+13;east side, near civ. 79;46.0629675;11.1239045;1
+16;near the entrance to the Galileo Galilei high school, replacing some motorcycle stalls;46.0641242;11.1352948;1
+18;near the S. Dorigoni pass;46.0714186;11.1244086;1
+19;near the intersection with via Comboni;46.0818888;11.1224686;1
+20;north-west side, near house number 1;46.0724599;11.1244377;1
+21;south side, near the railway pedestrian underpass (east side);46.0679935;11.1167155;1
+37;west side, near the intersection with via Segantini;46.0736024;11.1207444;1
+22;(west side) near the intersection with via Fermi;46.0482030;11.1288170;1
+24;(south side) near civ. 50;46.0581452;11.1213477;1
+25;(south side) near the intersection with via San Pio X;46.0558633;11.1202415;1
+27;(south side) near civ. 6;46.0697443;11.1217556;1
+29;(south side) near the intersection with the Carbonari passage;46.0858553;11.1205957;1
+31;(west side) near civ.1;46.0769975;11.1192377;1
+1;south side flowerbed near the intersection with viale della Costituzione and viale Olivetti;46.0604611;11.1152764;1
+32;(south side) near the intersection with Piazza S. Maria Maggiore;46.0686882;11.1202160;1
+33;(south side) near civ. 3;46.0705945;11.1134495;1
+34;(north side) near the intersection with Piazza Vittoria;46.0669637;11.1232106;1
+35;(south side) near civ. 12;46.0652439;11.1225454;1
+36;(north side) near the intersection with Corso III Novembre;46.0600571;11.1261622;1
+28;(west side) inside the parking area located near civ.133;46.0833040;11.1142709;1
+39;"in the parking area called ""Area ex Zuffo"" near the entrance to the ""Bike Parking Zuffo""";46.0751479;11.1103038;1
+41;"in the parking area called ""Monte Baldo"" near the west access to the same area";46.0574805;11.1128524;1
+30;(south side) near the Trento-Male' railway line station access;46.0901010;11.1133593;1

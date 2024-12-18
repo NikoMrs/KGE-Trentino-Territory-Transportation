@@ -42,8 +42,8 @@ def stops(folder):
         df["wheelchair_boarding"] = 0
     df['wheelchair_boarding'] = df['wheelchair_boarding'].astype(int)
 
-    # df.rename(columns={"stop_lat": "latitude"}, inplace=True)
-    # df.rename(columns={"stop_lon": "longitude"}, inplace=True)
+    df.rename(columns={"stop_lat": "latitude"}, inplace=True)
+    df.rename(columns={"stop_lon": "longitude"}, inplace=True)
     # df.rename(columns={"wheelchair_boarding": "wheelchair_accessible"}, inplace=True)
     # df.rename(columns={"stop_name": "name"}, inplace=True)
 

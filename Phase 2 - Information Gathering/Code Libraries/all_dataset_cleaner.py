@@ -68,9 +68,10 @@ def bike_sharing_1():
     df["latitude"] = df["latitude"].map(lambda x: f"{x:.7f}")
     df["longitude"] = df["longitude"].map(lambda x: f"{x:.7f}")
     df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[['id', 'description', 'capacity', 'latitude', 'longitude']]
+    df = df[['id', 'description', 'capacity', 'latitude', 'longitude', 'city_id']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -93,12 +94,13 @@ def bike_sharing_2():
     }, inplace=True)
 
     df["description"] = df["description"].apply(lambda item: ts.translate_text(item, from_language="it", to_language="en"))
+    df["city_id"] = 1
 
     # Hand-crafted id
     df["id"] = pd.Series(range(1, df.size))
 
     # Select only wanted columns
-    df = df[["id", "description", "capacity", "latitude", "longitude"]]
+    df = df[["id", "description", "capacity", "latitude", "longitude", 'city_id']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -121,9 +123,10 @@ def scooter_sharing():
 
     df["description"] = df["description"].apply(
         lambda item: ts.translate_text(item, from_language="it", to_language="en"))
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[['id', 'description', 'latitude', 'longitude']]
+    df = df[['id', 'description', 'latitude', 'longitude', 'city_id']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -145,9 +148,10 @@ def taxi():
 
     # Hand-crafted id
     df["id"] = pd.Series(range(1, df.size))
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[['id', 'name', 'latitude', 'longitude']]
+    df = df[['id', 'name', 'latitude', 'longitude', 'city_id']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -172,9 +176,10 @@ def car_sharing():
 
     # Hand-crafted id
     df["id"] = pd.Series(range(1, df.size))
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[['id', 'description', 'capacity', 'latitude', 'longitude']]
+    df = df[['id', 'description', 'capacity', 'latitude', 'longitude', 'city_id']]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -208,9 +213,10 @@ def parking_facility():
     df["access"] = df["access"].replace(to_replace="yes", value="public")
     df = df[df["access"] != "private"]
     df["fee"] = df["fee"].fillna("no")
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[["id", "access", "fee", "capacity", "type", "latitude", "longitude"]]
+    df = df[["id", "access", "fee", "capacity", "type", "latitude", "longitude", "city_id"]]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -235,9 +241,10 @@ def bike_rack_1():
     df["type"] = df["type"].apply(lambda x: x.split("_")[1])
     df.loc[df["type"] == "tradizionale", "type"] = "traditional"
     df.loc[df["type"] == "bloccatelaio", "type"] = "frame lock"
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[["id", "type", "capacity", "latitude", "longitude"]]
+    df = df[["id", "type", "capacity", "latitude", "longitude", "city_id"]]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)
@@ -261,9 +268,10 @@ def bike_rack_2():
     # Hand-crafted id
     df["id"] = pd.Series(range(1, df.size))
     df["type"] = "guarded"
+    df["city_id"] = 1
 
     # Select only wanted columns
-    df = df[["id", "type", "capacity", "latitude", "longitude"]]
+    df = df[["id", "type", "capacity", "latitude", "longitude", "city_id"]]
 
     # Save in CSV format
     df.to_csv(output_csv, sep=';', index=False)

@@ -1,9 +1,9 @@
-id;description;capacity;latitude;longitude
-1;PIAZZA DANTE: via Torre Vanga - bus station;8;46.0703782;11.1198197
-2;DANTE SQUARE: Alfieri Street - Regional Palace;8;46.0714710;11.1212143
-3;PIAZZA DANTE: FFSS station - city bus terminus;20;46.0719492;11.1193359
-4;VIA DOGANA: Trento - Malé railway station;4;46.0737000;11.1204627
-5;PIAZZA VICENZA (autosus stop);4;46.0626263;11.1334993
-6;MONTE BALDO CAR PARK;24;46.0573694;11.1126640
-7;DUOMO PARKING: via Sanseverino;4;46.0668968;11.1151139
-8;EX ZUFFO SQUARE;8;46.0752108;11.1099861
+id;description;capacity;latitude;longitude;city_id
+1;PIAZZA DANTE: via Torre Vanga - bus station;8;46.0703782;11.1198197;1
+2;DANTE SQUARE: via Alfieri - Regional Palace;8;46.0714710;11.1212143;1
+3;PIAZZA DANTE: FFSS station - city bus terminus;20;46.0719492;11.1193359;1
+4;VIA DOGANA: Trento - Malé railway station;4;46.0737000;11.1204627;1
+5;PIAZZA VICENZA (autosus stop);4;46.0626263;11.1334993;1
+6;MONTE BALDO CAR PARK;24;46.0573694;11.1126640;1
+7;DUOMO PARKING: via Sanseverino;4;46.0668968;11.1151139;1
+8;EX ZUFFO SQUARE;8;46.0752108;11.1099861;1
