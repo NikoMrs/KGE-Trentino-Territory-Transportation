@@ -8,11 +8,40 @@ def merge_datasets():
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    for filename in os.listdir("../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano"):
-        extraurbano = pd.read_csv(f"../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/{filename}", delimiter=";")
-        urbano = pd.read_csv(f"../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/{filename}", delimiter=";")
+    urbano_dirs = [
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_stop_times.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_calendar.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_stops.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_calendar_dates.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_trips.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Urbano/_routes.csv",
+    ]
+
+    extraurbano_dirs = [
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_stop_times.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_calendar.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_stops.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_calendar_dates.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_trips.csv",
+        "../../Phase 2 - Information Gathering/Datasets/cleaned datasets/Extraurbano/_routes.csv",
+    ]
+
+    output_dirs = [
+        "../Datasets/cleaned datasets/trentino_trasporti/stop_events.csv",
+        "../Datasets/cleaned datasets/trentino_trasporti/transportation_schedules.csv",
+        "../Datasets/cleaned datasets/trentino_trasporti/stops.csv",
+        "../Datasets/cleaned datasets/trentino_trasporti/transportation_special_schedules.csv",
+        "../Datasets/cleaned datasets/trentino_trasporti/trips.csv",
+        "../Datasets/cleaned datasets/trentino_trasporti/transportation_lines.csv",
+    ]
+
+    idx = 0
+    for dir in extraurbano_dirs:
+        extraurbano = pd.read_csv(dir, delimiter=";")
+        urbano = pd.read_csv(urbano_dirs[idx], delimiter=";")
         merge = pd.concat([urbano, extraurbano], ignore_index=True)
-        merge.to_csv(f"../Datasets/cleaned datasets/trentino_trasporti/{filename}", sep=";", index=False)
+        merge.to_csv(output_dirs[idx], sep=";", index=False)
+        idx+=1
 
 
 def is_row_present(row, df, tolerance):
