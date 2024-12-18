@@ -1697,8 +1697,8 @@ This property can be used alongside the license property which indicates license
 
 ###  http://knowdive.disi.unitn.it/etype#refers_to
 :refers_to rdf:type owl:ObjectProperty ;
-           rdfs:domain :Transportation_special_schedule ;
-           rdfs:range :Transportation_schedule .
+           rdfs:domain :Transportation_schedule ;
+           rdfs:range :Transportation_special_schedule .
 
 
 #################################################################

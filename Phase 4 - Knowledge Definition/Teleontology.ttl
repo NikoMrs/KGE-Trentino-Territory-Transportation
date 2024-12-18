@@ -1684,8 +1684,8 @@ This property can be used alongside the license property which indicates license
 
 ###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/refers_to
 :refers_to rdf:type owl:ObjectProperty ;
-           rdfs:domain :Transportation_special_schedule ;
-           rdfs:range :Transportation_schedule .
+           rdfs:domain :Transportation_schedule ;
+           rdfs:range :Transportation_special_schedule .
 
 
 #################################################################
