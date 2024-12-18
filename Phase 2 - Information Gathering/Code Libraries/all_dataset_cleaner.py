@@ -305,6 +305,7 @@ if __name__ == '__main__':
     parking_facility()
     bike_rack_1()
     bike_rack_2()
+    city()
 
     print("\nTrentino trasporti Urbano...")
     urbano()
