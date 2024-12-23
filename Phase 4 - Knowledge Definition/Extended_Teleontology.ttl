@@ -1,27 +1,27 @@
-@prefix : <http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/> .
+@prefix : <http://knowdive.disi.unitn.it/etype#/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/> .
+@base <http://knowdive.disi.unitn.it/etype#/> .
 
-<http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory&Transportation> rdf:type owl:Ontology ;
-                                                                                                 rdfs:comment "This is an ontology regarding Trentino Territory & Transportation" .
+<http://knowdive.disi.unitn.it/etype#> rdf:type owl:Ontology ;
+                                        rdfs:comment "This is an ontology regarding Trentino Territory & Transportation" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/conceptID
+###  http://knowdive.disi.unitn.it/etype#conceptID
 :conceptID rdf:type owl:AnnotationProperty .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/equivalentTo
+###  http://knowdive.disi.unitn.it/etype#equivalentTo
 :equivalentTo rdf:type owl:AnnotationProperty .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/isEtype
+###  http://knowdive.disi.unitn.it/etype#isEtype
 :isEtype rdf:type owl:AnnotationProperty .
 
 
@@ -1691,54 +1691,54 @@ This property can be used alongside the license property which indicates license
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Contains
+###  http://knowdive.disi.unitn.it/etype#Contains
 :Contains rdf:type owl:ObjectProperty ;
           rdfs:domain :Transportation_trip ;
           rdfs:range :Stop_event .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/composed_of
+###  http://knowdive.disi.unitn.it/etype#composed_of
 :composed_of rdf:type owl:ObjectProperty ;
              rdfs:domain :Transit_line ;
              rdfs:range :Transportation_trip .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/has_a
+###  http://knowdive.disi.unitn.it/etype#has_a
 :has_a rdf:type owl:ObjectProperty ;
        rdfs:domain :City ;
-       rdfs:range <http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking> ,
-                  <http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing> ,
-                  <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
-                  <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
-                  <http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> ,
+       rdfs:range :Bicycle_parking ,
+                  :Bike_sharing ,
+                  :Car_sharing ,
+                  :Parking_facility ,
+                  :Scooter_rental ,
                   :Taxi_stand .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/hosts_an
+###  http://knowdive.disi.unitn.it/etype#hosts_an
 :hosts_an rdf:type owl:ObjectProperty ;
           rdfs:domain :City ;
           rdfs:range :Transportation_system .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/is_followed_by
+###  http://knowdive.disi.unitn.it/etype#is_followed_by
 :is_followed_by rdf:type owl:ObjectProperty ;
                 rdfs:domain :Transportation_schedule ;
                 rdfs:range :Transportation_trip .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/is_location_for
+###  http://knowdive.disi.unitn.it/etype#is_location_for
 :is_location_for rdf:type owl:ObjectProperty ;
                  rdfs:domain :Stop ;
                  rdfs:range :Stop_event .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/provides
+###  http://knowdive.disi.unitn.it/etype#provides
 :provides rdf:type owl:ObjectProperty ;
           rdfs:domain :Transportation_system ;
           rdfs:range :Transit_line .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/refers_to
+###  http://knowdive.disi.unitn.it/etype#refers_to
 :refers_to rdf:type owl:ObjectProperty ;
            rdfs:domain :Transportation_schedule ;
            rdfs:range :Transportation_special_schedule .
@@ -1748,196 +1748,196 @@ This property can be used alongside the license property which indicates license
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Identifier
+###  http://knowdive.disi.unitn.it/etype#Identifier
 :Identifier rdf:type owl:DatatypeProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/arrival_time
+###  http://knowdive.disi.unitn.it/etype#arrival_time
 :arrival_time rdf:type owl:DatatypeProperty ;
               rdfs:domain :Stop_event ;
               rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/bike_rack_type
+###  http://knowdive.disi.unitn.it/etype#bike_rack_type
 :bike_rack_type rdf:type owl:DatatypeProperty ;
-                rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking> ;
+                rdfs:domain :Bicycle_parking ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/bike_slots
+###  http://knowdive.disi.unitn.it/etype#bike_slots
 :bike_slots rdf:type owl:DatatypeProperty ;
             rdfs:domain :Transportation_trip ;
             rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/byDay
+###  http://knowdive.disi.unitn.it/etype#byDay
 :byDay rdf:type owl:DatatypeProperty ;
        rdfs:domain :Transportation_schedule ;
        rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/capacity
+###  http://knowdive.disi.unitn.it/etype#capacity
 :capacity rdf:type owl:DatatypeProperty ;
-          rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking> ,
-                      <http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing> ,
-                      <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
-                      <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
+          rdfs:domain :Bicycle_parking ,
+                      :Bike_sharing ,
+                      :Car_sharing ,
+                      :Parking_facility ,
                       :Taxi_stand ;
           rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/date
+###  http://knowdive.disi.unitn.it/etype#date
 :date rdf:type owl:DatatypeProperty ;
       rdfs:domain :Transportation_special_schedule ;
       rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/departure_time
+###  http://knowdive.disi.unitn.it/etype#departure_time
 :departure_time rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Stop_event ;
                 rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/description
+###  http://knowdive.disi.unitn.it/etype#description
 :description rdf:type owl:DatatypeProperty ;
-             rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing> ,
-                         <http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> ,
-                         <http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> ;
+             rdfs:domain :Bike_sharing ,
+                         :Car_sharing ,
+                         :Scooter_rental ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/end_date
+###  http://knowdive.disi.unitn.it/etype#end_date
 :end_date rdf:type owl:DatatypeProperty ;
           rdfs:domain :Transportation_schedule ;
           rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/geo
+###  http://knowdive.disi.unitn.it/etype#geo
 :geo rdf:type owl:DatatypeProperty ;
      rdfs:domain <https://schema.org/AdministrativeArea> ;
      rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/headsign
+###  http://knowdive.disi.unitn.it/etype#headsign
 :headsign rdf:type owl:DatatypeProperty ;
           rdfs:domain :Transportation_trip ;
           rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/latitude
+###  http://knowdive.disi.unitn.it/etype#latitude
 :latitude rdf:type owl:DatatypeProperty ;
           rdfs:domain <https://schema.org/Place> ;
           rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/line_long_name
+###  http://knowdive.disi.unitn.it/etype#line_long_name
 :line_long_name rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Transit_line ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/line_short_name
+###  http://knowdive.disi.unitn.it/etype#line_short_name
 :line_short_name rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Transit_line ;
                  rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/line_type
+###  http://knowdive.disi.unitn.it/etype#line_type
 :line_type rdf:type owl:DatatypeProperty ;
            rdfs:domain :Transit_line ;
            rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/longitude
+###  http://knowdive.disi.unitn.it/etype#longitude
 :longitude rdf:type owl:DatatypeProperty ;
            rdfs:domain <https://schema.org/Place> ;
            rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/name
+###  http://knowdive.disi.unitn.it/etype#name
 :name rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ,
+      rdfs:domain :Parking_facility ,
                   :Stop ,
                   :Taxi_stand ,
                   <https://schema.org/Organization> ;
       rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/parking_access
+###  http://knowdive.disi.unitn.it/etype#parking_access
 :parking_access rdf:type owl:DatatypeProperty ;
-                rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ;
+                rdfs:domain :Parking_facility ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/parking_fee
+###  http://knowdive.disi.unitn.it/etype#parking_fee
 :parking_fee rdf:type owl:DatatypeProperty ;
-             rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ;
+             rdfs:domain :Parking_facility ;
              rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/parking_type
+###  http://knowdive.disi.unitn.it/etype#parking_type
 :parking_type rdf:type owl:DatatypeProperty ;
-              rdfs:domain <http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> ;
+              rdfs:domain :Parking_facility ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/schedule_type
+###  http://knowdive.disi.unitn.it/etype#schedule_type
 :schedule_type rdf:type owl:DatatypeProperty ;
                rdfs:domain :Transportation_special_schedule ;
                rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/sequence_number
+###  http://knowdive.disi.unitn.it/etype#sequence_number
 :sequence_number rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Stop_event ;
                  rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/start_date
+###  http://knowdive.disi.unitn.it/etype#start_date
 :start_date rdf:type owl:DatatypeProperty ;
             rdfs:domain :Transportation_schedule ;
             rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/telephone_number
+###  http://knowdive.disi.unitn.it/etype#telephone_number
 :telephone_number rdf:type owl:DatatypeProperty ;
                   rdfs:domain <https://schema.org/Organization> ;
                   rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/trip_direction
+###  http://knowdive.disi.unitn.it/etype#trip_direction
 :trip_direction rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Transportation_trip ;
                 rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/url
+###  http://knowdive.disi.unitn.it/etype#url
 :url rdf:type owl:DatatypeProperty ;
      rdfs:domain <https://schema.org/Organization> ;
      rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/validFrom
+###  http://knowdive.disi.unitn.it/etype#validFrom
 :validFrom rdf:type owl:DatatypeProperty ;
            rdfs:domain :Transportation_system ;
            rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/validThrough
+###  http://knowdive.disi.unitn.it/etype#validThrough
 :validThrough rdf:type owl:DatatypeProperty ;
               rdfs:domain :Transportation_system ;
               rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/wheellchair_accessible
+###  http://knowdive.disi.unitn.it/etype#wheellchair_accessible
 :wheellchair_accessible rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Transportation_trip ;
                         rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/wheellchair_boarding
+###  http://knowdive.disi.unitn.it/etype#wheellchair_boarding
 :wheellchair_boarding rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Stop ;
                       rdfs:range xsd:int .
@@ -1947,52 +1947,34 @@ This property can be used alongside the license property which indicates license
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking
-<http://www.semanticweb.org/marco/ontologies/2024/10/Bicycle_parking> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <https://schema.org/CivicStructure> ;
-                                                                      :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dbicycle_parking" ;
-                                                                      :isEtype "true"^^xsd:boolean ;
-                                                                      rdfs:comment "A parking space designed for bicycles"@en ;
-                                                                      rdfs:label "Bicycle_parking"@en .
+###  http://knowdive.disi.unitn.it/etype#Bicycle_parking
+:Bicycle_parking rdf:type owl:Class ;
+                 rdfs:subClassOf <https://schema.org/CivicStructure> ;
+                 :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dbicycle_parking" ;
+                 :isEtype "true"^^xsd:boolean ;
+                 rdfs:comment "A parking space designed for bicycles"@en ;
+                 rdfs:label "Bicycle_parking"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing
-<http://www.semanticweb.org/marco/ontologies/2024/10/Bike_sharing> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf <https://schema.org/CivicStructure> ;
-                                                                   :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dbicycle_rental" ;
-                                                                   :isEtype "true"^^xsd:boolean ;
-                                                                   rdfs:comment "A place, often unattended, where you can pick up and drop off rented bikes"@en ;
-                                                                   rdfs:label "Bike_sharing"@en .
+###  http://knowdive.disi.unitn.it/etype#Bike_sharing
+:Bike_sharing rdf:type owl:Class ;
+              rdfs:subClassOf <https://schema.org/CivicStructure> ;
+              :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dbicycle_rental" ;
+              :isEtype "true"^^xsd:boolean ;
+              rdfs:comment "A place, often unattended, where you can pick up and drop off rented bikes"@en ;
+              rdfs:label "Bike_sharing"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing
-<http://www.semanticweb.org/marco/ontologies/2024/10/Car_sharing> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <https://schema.org/CivicStructure> ;
-                                                                  :conceptID "https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcar_sharing" ;
-                                                                  :isEtype "true"^^xsd:boolean ;
-                                                                  rdfs:comment "Where vehicles can be picked up or dropped off, in the manner of a short term rental. These locations are generally unattended"@en ;
-                                                                  rdfs:label "Car_sharing"@en .
+###  http://knowdive.disi.unitn.it/etype#Car_sharing
+:Car_sharing rdf:type owl:Class ;
+             rdfs:subClassOf <https://schema.org/CivicStructure> ;
+             :conceptID "https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcar_sharing" ;
+             :isEtype "true"^^xsd:boolean ;
+             rdfs:comment "Where vehicles can be picked up or dropped off, in the manner of a short term rental. These locations are generally unattended"@en ;
+             rdfs:label "Car_sharing"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility
-<http://www.semanticweb.org/marco/ontologies/2024/10/Parking_facility> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf <https://schema.org/CivicStructure> ;
-                                                                       :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dparking" ;
-                                                                       :isEtype "true"^^xsd:boolean ;
-                                                                       rdfs:comment "A place for parking cars"@en ;
-                                                                       rdfs:label "Parking_facility"@en .
-
-
-###  http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental
-<http://www.semanticweb.org/marco/ontologies/2024/10/Scooter_rental> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <https://schema.org/CivicStructure> ;
-                                                                     :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dkick-scooter_rental" ;
-                                                                     :isEtype "true"^^xsd:boolean ;
-                                                                     rdfs:comment "Service allowing users to rent electric scooters for short periods, usually via an app"@en ;
-                                                                     rdfs:label "Scooter_rental"@en .
-
-
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/City
+###  http://knowdive.disi.unitn.it/etype#City
 :City rdf:type owl:Class ;
       rdfs:subClassOf <https://schema.org/AdministrativeArea> ;
       :conceptID "UKC-45148" ;
@@ -2001,7 +1983,25 @@ This property can be used alongside the license property which indicates license
       rdfs:label "City"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Stop
+###  http://knowdive.disi.unitn.it/etype#Parking_facility
+:Parking_facility rdf:type owl:Class ;
+                  rdfs:subClassOf <https://schema.org/CivicStructure> ;
+                  :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dparking" ;
+                  :isEtype "true"^^xsd:boolean ;
+                  rdfs:comment "A place for parking cars"@en ;
+                  rdfs:label "Parking_facility"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Scooter_rental
+:Scooter_rental rdf:type owl:Class ;
+                rdfs:subClassOf <https://schema.org/CivicStructure> ;
+                :conceptID "https://wiki.openstreetmap.org/wiki/Tag:_amenity%3Dkick-scooter_rental" ;
+                :isEtype "true"^^xsd:boolean ;
+                rdfs:comment "Service allowing users to rent electric scooters for short periods, usually via an app"@en ;
+                rdfs:label "Scooter_rental"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Stop
 :Stop rdf:type owl:Class ;
       rdfs:subClassOf <https://schema.org/CivicStructure> ;
       :conceptID "UKC-45672" ;
@@ -2010,7 +2010,7 @@ This property can be used alongside the license property which indicates license
       rdfs:label "Stop"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Stop_event
+###  http://knowdive.disi.unitn.it/etype#Stop_event
 :Stop_event rdf:type owl:Class ;
             :conceptID "UKC-5348" ;
             :isEtype "true"^^xsd:boolean ;
@@ -2018,7 +2018,7 @@ This property can be used alongside the license property which indicates license
             rdfs:label "Stop_event"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Taxi_stand
+###  http://knowdive.disi.unitn.it/etype#Taxi_stand
 :Taxi_stand rdf:type owl:Class ;
             rdfs:subClassOf <https://schema.org/CivicStructure> ;
             :conceptID "UKC-45120" ;
@@ -2027,7 +2027,7 @@ This property can be used alongside the license property which indicates license
             rdfs:label "Taxi_stand"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Transit_line
+###  http://knowdive.disi.unitn.it/etype#Transit_line
 :Transit_line rdf:type owl:Class ;
               rdfs:subClassOf <https://schema.org/Service> ;
               :conceptID "UKC-24387" ;
@@ -2036,7 +2036,7 @@ This property can be used alongside the license property which indicates license
               rdfs:label "Transit_line"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Transportation_schedule
+###  http://knowdive.disi.unitn.it/etype#Transportation_schedule
 :Transportation_schedule rdf:type owl:Class ;
                          rdfs:subClassOf <https://schema.org/Intangible> ;
                          :conceptID "KGE24-1-4" ;
@@ -2046,7 +2046,7 @@ This property can be used alongside the license property which indicates license
                          rdfs:label "Transportation_schedule"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Transportation_special_schedule
+###  http://knowdive.disi.unitn.it/etype#Transportation_special_schedule
 :Transportation_special_schedule rdf:type owl:Class ;
                                  rdfs:subClassOf <https://schema.org/Intangible> ;
                                  :conceptID "KGE24-1-5" ;
@@ -2055,7 +2055,7 @@ This property can be used alongside the license property which indicates license
                                  rdfs:label "Transportation_special_schedule"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Transportation_system
+###  http://knowdive.disi.unitn.it/etype#Transportation_system
 :Transportation_system rdf:type owl:Class ;
                        rdfs:subClassOf <https://schema.org/Organization> ;
                        :conceptID "UKC-24394" ;
@@ -2064,7 +2064,7 @@ This property can be used alongside the license property which indicates license
                        rdfs:label "Transportation_system"@en .
 
 
-###  http://www.semanticweb.org/marco/ontologies/2024/10/KGE2024-Trentino-Territory-Transportation/Transportation_trip
+###  http://knowdive.disi.unitn.it/etype#Transportation_trip
 :Transportation_trip rdf:type owl:Class ;
                      rdfs:subClassOf <https://schema.org/Intangible> ;
                      :conceptID "KGE24-1-3" ;
