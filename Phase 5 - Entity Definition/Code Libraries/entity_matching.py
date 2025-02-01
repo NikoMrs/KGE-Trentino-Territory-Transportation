@@ -39,6 +39,9 @@ def merge_datasets():
     for dir in extraurbano_dirs:
         extraurbano = pd.read_csv(dir, delimiter=";")
         urbano = pd.read_csv(urbano_dirs[idx], delimiter=";")
+        if "stop" in dir:
+            extraurbano["stop_id"] = extraurbano["stop_id"].apply(lambda x: "e_" + str(x)) 
+            urbano["stop_id"] = urbano["stop_id"].apply(lambda x: "u_" + str(x)) 
         merge = pd.concat([urbano, extraurbano], ignore_index=True)
         merge.to_csv(output_dirs[idx], sep=";", index=False)
         idx+=1
