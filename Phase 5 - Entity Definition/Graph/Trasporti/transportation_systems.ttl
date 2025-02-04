@@ -1,0 +1,18 @@
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#hosts_an> <http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#validThrough> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#name> "Trentino trasporti S.p.A."@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#validFrom> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#telephone_number> "+39 0461 821000"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#url> "https://www.trentinotrasporti.it/"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://knowdive.disi.unitn.it/etype#name> "Dolomitibus S.p.A."@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://knowdive.disi.unitn.it/etype#url> "https://www.dolomitibus.it/"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://knowdive.disi.unitn.it/etype#validFrom> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://knowdive.disi.unitn.it/etype#validThrough> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://knowdive.disi.unitn.it/etype#hosts_an> <http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/13/identifier> <http://knowdive.disi.unitn.it/etype#telephone_number> "+39 0437 941711"@en .
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+

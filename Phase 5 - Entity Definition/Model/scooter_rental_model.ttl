@@ -1,0 +1,639 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ii5onoakx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "scooter_rental.csv" ;
+	km-dev:modelPublicationTime "1737507987796"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"description\"}],[{\"columnName\":\"city_id\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"description\"}],[{\"columnName\":\"City_identifier_uri\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"Scooter_rental_identifier_uri\"}],[{\"columnName\":\"longitude\"}]]" ;
+	km-dev:hasModelLabel "scooter_rental.csv" ;
+	km-dev:hasBaseURI "http://knowdive.disi.unitn.it/etype#" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"city_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"City_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"City/\\\" + getValue(\\\"city_id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Scooter_rental_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"Scooter_rental/\\\" + getValue(\\\"id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Scooter_rental_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://knowdive.disi.unitn.it/etype#\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"description\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#description\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental/Scooter_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#latitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental/Scooter_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#longitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental/Scooter_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"City_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#City\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#City/City1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Scooter_rental_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental/Scooter_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Scooter_rental_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Scooter_rental_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_a\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Scooter_rental\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#City\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e a rr:TriplesMap .
+
+_:node1ii5onoakx1 km-dev:hasTriplesMap km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx2 rr:tableName "scooter_rental.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasLogicalTable _:node1ii5onoakx2 .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e rr:logicalTable _:node1ii5onoakx2 ;
+	rr:subjectMap _:node1ii5onoakx3 .
+
+_:node1ii5onoakx1 km-dev:hasSubjectMap _:node1ii5onoakx3 .
+
+_:node1ii5onoakx3 km-dev:isPartOfMapping _:node1ii5onoakx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Scooter_rental1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Scooter_rental> ;
+	rr:template "Scooter_rental/{id}/identifier" .
+
+km-dev:PredicateObjectMap_280f95b6-383d-4199-80ff-67eaf8083308 rr:predicate <http://knowdive.disi.unitn.it/etype#description> .
+
+_:node1ii5onoakx4 rr:column "description" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasObjectMap _:node1ii5onoakx4 .
+
+km-dev:PredicateObjectMap_280f95b6-383d-4199-80ff-67eaf8083308 rr:objectMap _:node1ii5onoakx4 .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e rr:predicateObjectMap km-dev:PredicateObjectMap_280f95b6-383d-4199-80ff-67eaf8083308 .
+
+km-dev:PredicateObjectMap_280f95b6-383d-4199-80ff-67eaf8083308 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_280f95b6-383d-4199-80ff-67eaf8083308 .
+
+km-dev:PredicateObjectMap_d3bc473d-7d8b-471d-9174-2a554a00bb46 rr:predicate <http://knowdive.disi.unitn.it/etype#longitude> .
+
+_:node1ii5onoakx5 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasObjectMap _:node1ii5onoakx5 .
+
+km-dev:PredicateObjectMap_d3bc473d-7d8b-471d-9174-2a554a00bb46 rr:objectMap _:node1ii5onoakx5 .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e rr:predicateObjectMap km-dev:PredicateObjectMap_d3bc473d-7d8b-471d-9174-2a554a00bb46 .
+
+km-dev:PredicateObjectMap_d3bc473d-7d8b-471d-9174-2a554a00bb46 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d3bc473d-7d8b-471d-9174-2a554a00bb46 .
+
+km-dev:PredicateObjectMap_bb99ab14-0ca7-4328-aecb-b9cbe3f78663 rr:predicate <http://knowdive.disi.unitn.it/etype#latitude> .
+
+_:node1ii5onoakx6 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasObjectMap _:node1ii5onoakx6 .
+
+km-dev:PredicateObjectMap_bb99ab14-0ca7-4328-aecb-b9cbe3f78663 rr:objectMap _:node1ii5onoakx6 .
+
+km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e rr:predicateObjectMap km-dev:PredicateObjectMap_bb99ab14-0ca7-4328-aecb-b9cbe3f78663 .
+
+km-dev:PredicateObjectMap_bb99ab14-0ca7-4328-aecb-b9cbe3f78663 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bb99ab14-0ca7-4328-aecb-b9cbe3f78663 .
+
+km-dev:TriplesMap_28be442b-4113-4c66-9b0f-130a78a7633d a rr:TriplesMap .
+
+_:node1ii5onoakx1 km-dev:hasTriplesMap km-dev:TriplesMap_28be442b-4113-4c66-9b0f-130a78a7633d .
+
+km-dev:TriplesMap_28be442b-4113-4c66-9b0f-130a78a7633d km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx7 rr:tableName "scooter_rental.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasLogicalTable _:node1ii5onoakx7 .
+
+km-dev:TriplesMap_28be442b-4113-4c66-9b0f-130a78a7633d rr:logicalTable _:node1ii5onoakx7 ;
+	rr:subjectMap _:node1ii5onoakx8 .
+
+_:node1ii5onoakx1 km-dev:hasSubjectMap _:node1ii5onoakx8 .
+
+_:node1ii5onoakx8 km-dev:isPartOfMapping _:node1ii5onoakx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#City1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#City> ;
+	rr:template "City/{city_id}/identifier" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_29bb3bd2-88fb-4738-b37e-8f9e58003902 rr:predicate <http://knowdive.disi.unitn.it/etype#has_a> .
+
+km-dev:RefObjectMap_935a22db-5c26-420d-bb50-4e88a16a8a9e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ca7c4a7b-0838-4535-ad90-2e20810ab31e ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasObjectMap km-dev:RefObjectMap_935a22db-5c26-420d-bb50-4e88a16a8a9e .
+
+km-dev:PredicateObjectMap_29bb3bd2-88fb-4738-b37e-8f9e58003902 rr:objectMap km-dev:RefObjectMap_935a22db-5c26-420d-bb50-4e88a16a8a9e .
+
+km-dev:TriplesMap_28be442b-4113-4c66-9b0f-130a78a7633d rr:predicateObjectMap km-dev:PredicateObjectMap_29bb3bd2-88fb-4738-b37e-8f9e58003902 .
+
+km-dev:PredicateObjectMap_29bb3bd2-88fb-4738-b37e-8f9e58003902 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5onoakx1 .
+
+_:node1ii5onoakx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_29bb3bd2-88fb-4738-b37e-8f9e58003902 .

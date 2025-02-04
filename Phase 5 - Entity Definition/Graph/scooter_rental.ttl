@@ -1,0 +1,273 @@
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/4/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the north-west side of the intersection with via Madruzzo"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/4/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1193733"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/4/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/4/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/4/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0636459"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/5/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/5/identifier> <http://knowdive.disi.unitn.it/etype#description> "east side, at number 49"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/5/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/5/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1249033"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/5/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0611310"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/7/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/7/identifier> <http://knowdive.disi.unitn.it/etype#description> "west side, at number 12"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/7/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1217183"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/7/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0611265"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/7/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/9/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/9/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1177067"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/9/identifier> <http://knowdive.disi.unitn.it/etype#description> "south side, at number 5"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/9/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0952341"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/9/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/14/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/14/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1282765"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/14/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/14/identifier> <http://knowdive.disi.unitn.it/etype#description> "in continuation of the E-motion bike sharing station"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/14/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0442332"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/15/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0839529"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/15/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1194493"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/15/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/15/identifier> <http://knowdive.disi.unitn.it/etype#description> "west side, immediately south of the building identified by house number 99"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/15/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/38/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1203414"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/38/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/38/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0702246"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/38/identifier> <http://knowdive.disi.unitn.it/etype#description> "north side, at house numbers 22-26"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/38/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/23/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/23/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1336367"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/23/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0480246"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/23/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/23/identifier> <http://knowdive.disi.unitn.it/etype#description> "(west side) at civ. 150"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/26/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) at number 1"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/26/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/26/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/26/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1273021"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/26/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0591314"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/2/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/2/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1174404"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/2/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0662450"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/2/identifier> <http://knowdive.disi.unitn.it/etype#description> "west side, near house number 28"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/3/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0670441"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/3/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/3/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1188404"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/3/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/3/identifier> <http://knowdive.disi.unitn.it/etype#description> "west side, near house number 38"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/6/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the E-motion bike sharing station"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/6/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/6/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1273748"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/6/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0651904"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/6/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/8/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/8/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0732969"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/8/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the student residence"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/8/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/8/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1183394"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/10/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the E-motion bike sharing station and taxi stalls"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/10/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0752016"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/10/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1238536"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/10/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/10/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/11/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/11/identifier> <http://knowdive.disi.unitn.it/etype#description> "in the widening near the irrigation ditch"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/11/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0672421"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/11/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/11/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1269466"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/12/identifier> <http://knowdive.disi.unitn.it/etype#description> "south side, near the intersection with Largo Donatori Volontari del Sangue"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/12/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/12/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0562571"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/12/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1308766"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/13/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/13/identifier> <http://knowdive.disi.unitn.it/etype#description> "east side, near civ. 79"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/13/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/13/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0629675"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/13/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1239045"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/16/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1352948"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/16/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/16/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0641242"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/16/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the entrance to the Galileo Galilei high school, replacing some motorcycle stalls"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/16/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/18/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1244086"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/18/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0714186"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/18/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/18/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/18/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the S. Dorigoni pass"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/19/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1224686"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/19/identifier> <http://knowdive.disi.unitn.it/etype#description> "near the intersection with via Comboni"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/19/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/19/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0818888"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/19/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/20/identifier> <http://knowdive.disi.unitn.it/etype#description> "north-west side, near house number 1"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/20/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0724599"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/20/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/20/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1244377"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/20/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/21/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/21/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1167155"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/21/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/21/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0679935"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/21/identifier> <http://knowdive.disi.unitn.it/etype#description> "south side, near the railway pedestrian underpass (east side)"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/37/identifier> <http://knowdive.disi.unitn.it/etype#description> "west side, near the intersection with via Segantini"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/37/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/37/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/37/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1207444"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/37/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0736024"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/22/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0482030"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/22/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/22/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1288170"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/22/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/22/identifier> <http://knowdive.disi.unitn.it/etype#description> "(west side) near the intersection with via Fermi"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/24/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/24/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1213477"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/24/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near civ. 50"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/24/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/24/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0581452"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/25/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1202415"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/25/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/25/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near the intersection with via San Pio X"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/25/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/25/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0558633"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/27/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near civ. 6"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/27/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/27/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1217556"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/27/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0697443"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/27/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/29/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near the intersection with the Carbonari passage"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/29/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/29/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0858553"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/29/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/29/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1205957"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/31/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0769975"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/31/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/31/identifier> <http://knowdive.disi.unitn.it/etype#description> "(west side) near civ.1"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/31/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1192377"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/31/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/1/identifier> <http://knowdive.disi.unitn.it/etype#description> "south side flowerbed near the intersection with viale della Costituzione and viale Olivetti"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/1/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1152764"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/1/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0604611"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/1/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/32/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1202160"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/32/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/32/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near the intersection with Piazza S. Maria Maggiore"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/32/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/32/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0686882"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/33/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0705945"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/33/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1134495"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/33/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/33/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near civ. 3"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/33/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/34/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1232106"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/34/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0669637"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/34/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/34/identifier> <http://knowdive.disi.unitn.it/etype#description> "(north side) near the intersection with Piazza Vittoria"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/34/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/35/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1225454"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/35/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near civ. 12"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/35/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0652439"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/35/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/35/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/36/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0600571"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/36/identifier> <http://knowdive.disi.unitn.it/etype#description> "(north side) near the intersection with Corso III Novembre"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/36/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/36/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/36/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1261622"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/28/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1142709"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/28/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0833040"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/28/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/28/identifier> <http://knowdive.disi.unitn.it/etype#description> "(west side) inside the parking area located near civ.133"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/28/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/39/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1103038"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/39/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/39/identifier> <http://knowdive.disi.unitn.it/etype#description> "in the parking area called \"Area ex Zuffo\" near the entrance to the \"Bike Parking Zuffo\""@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/39/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/39/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0751479"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/41/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0574805"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/41/identifier> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/41/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/41/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1128524"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/41/identifier> <http://knowdive.disi.unitn.it/etype#description> "in the parking area called \"Monte Baldo\" near the west access to the same area"@en .
+
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/30/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0901010"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/30/identifier> <http://knowdive.disi.unitn.it/etype#description> "(south side) near the Trento-Male' railway line station access"@en .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/30/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1133593"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Scooter_rental/30/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Scooter_rental/30/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Scooter_rental> .
+

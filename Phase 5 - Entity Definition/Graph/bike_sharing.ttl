@@ -1,0 +1,376 @@
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1096541"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> <http://knowdive.disi.unitn.it/etype#description> "ZUFFO 2 - VIA DOS TRENTO"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/20/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0752302"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0712112"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> <http://knowdive.disi.unitn.it/etype#description> "PIEDICASTELLO in Piazza di Piedicastello in the Andrea Hofler garden"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/30/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1136765"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0702069"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#description> "BUS STATION via Pozzo/via Torre Vanga"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1202145"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "22"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#description> "TOP CENTER"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.090191"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1185129"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "24"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#description> "BREN CENTER via Guardini"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0948025"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "18"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1176958"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1238779"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0753615"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#description> "CENTRAL SQUARE"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "18"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1281965"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0443911"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/12/identifier> <http://knowdive.disi.unitn.it/etype#description> "HEALTH AUTHORITY via Degasperi"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1283729"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "6"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0069881"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/41/identifier> <http://knowdive.disi.unitn.it/etype#description> "ROLLING PIN - piazza Q. PERINI"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.056297"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> <http://knowdive.disi.unitn.it/etype#description> "SWIMMING POOL via Fogazzaro/via Gocciadoro"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.130925"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/10/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> <http://knowdive.disi.unitn.it/etype#description> "CENTER S. CHIARA via S. Croce"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1238777"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "18"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/9/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0634103"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1190042"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "18"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0663413"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#description> "UNIVERSITY via Rosmini"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/8/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "24"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1212816"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0704419"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#description> "LIBRARY via Torre Vanga/via Alfieri"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0675993"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#description> "VENICE SQUARE"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1269921"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "24"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/4/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> <http://knowdive.disi.unitn.it/etype#description> "MUSE Course of Work and Science"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0615217"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/15/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1157876"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1129066"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.1044998"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> <http://knowdive.disi.unitn.it/etype#description> "GARDOLO SPORTS CENTER via IV Novembre"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/17/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> <http://knowdive.disi.unitn.it/etype#description> "VIA BEZZI corner via Vittorio Veneto"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0581239"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "9"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/16/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1193056"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1355532"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> <http://knowdive.disi.unitn.it/etype#description> "STATION FF.SS. - HOSPITAL via Gocciadoro/Staz. St. Clare"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/11/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0544476"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "10"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0636369"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1192767"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> <http://knowdive.disi.unitn.it/etype#description> "VIA MADRUZZO"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/19/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0332249"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1263373"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> <http://knowdive.disi.unitn.it/etype#description> "LIDORNO - via Lidorno/Trento South Park."@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/13/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "8"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "8"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0728196"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.121744"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/18/identifier> <http://knowdive.disi.unitn.it/etype#description> "VIA VANNETTI (PAT headquarters)"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0838509"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1195051"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> <http://knowdive.disi.unitn.it/etype#description> "EX ATESINA - LIDL via Brenner"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/21/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0797835"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> <http://knowdive.disi.unitn.it/etype#description> "CAMPO CONI course of the Alpini"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/22/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1176531"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1180116"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> <http://knowdive.disi.unitn.it/etype#description> "MAYER STUDENT RESIDENCE Buonarroti course"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/23/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0732151"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1313539"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> <http://knowdive.disi.unitn.it/etype#description> "VERONA Verona Avenue/Olmi Street"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0493736"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/24/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> <http://knowdive.disi.unitn.it/etype#description> "CLARINA intersection via Degasperi - via Anna Frank"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1240168"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/25/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.050792"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0651002"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> <http://knowdive.disi.unitn.it/etype#description> "BARBACOVI near the intersection via Barbacovi-via Brigata Acqui"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/26/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1277283"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1119228"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.1076163"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "6"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/27/identifier> <http://knowdive.disi.unitn.it/etype#description> "GARDOLO-EX SAWMILL via Feininger/piazzale Groff"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1089334"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0906205"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> <http://knowdive.disi.unitn.it/etype#description> "MACCANI via Maccani/Local Police Command"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/28/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1093864"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0991384"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> <http://knowdive.disi.unitn.it/etype#description> "CANOVA in the parking lot of the sports center in via Paludi"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/29/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0694697"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> <http://knowdive.disi.unitn.it/etype#description> "PIEDICASTELLO EX ITALCEMENTI Lungadige S. Nicolò"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1136801"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/38/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> <http://knowdive.disi.unitn.it/etype#description> "PALATRENTO via Fersina/via Bartali"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1238574"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0404625"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/35/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1018166"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.100111"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> <http://knowdive.disi.unitn.it/etype#description> "RONCAFORT via Caneppele"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/36/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> <http://knowdive.disi.unitn.it/etype#description> "VIA MENGUZZATO at the intersection with viale Verona"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1314502"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/32/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0424644"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "9"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1326958"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.05758"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/34/identifier> <http://knowdive.disi.unitn.it/etype#description> "S. CHIARA HOSPITAL Largo Medaglie d'Oro"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> <http://knowdive.disi.unitn.it/etype#description> "FF.SS. VILLAZZANO STATION - via Asiago"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1394494"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/31/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0442573"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0620587"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> <http://knowdive.disi.unitn.it/etype#description> "GORIZIA via Gorizi/via Vicenza"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/33/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1333258"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0511255"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1448727"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> <http://knowdive.disi.unitn.it/etype#description> "VILLAZZANO CEMETERY via Valnigra"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/37/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> <http://knowdive.disi.unitn.it/etype#description> "BRIDGE OF CAVALRYMEN Rovereto Avenue / Verona Avenue"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0590284"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1271663"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/39/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "6"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> <http://knowdive.disi.unitn.it/etype#description> "STUDENTATO SAN BARTOLAMEO via della Malpensada"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0481983"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1337079"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/40/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "12"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1198197"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "PIAZZA DANTE: via Torre Vanga - bus station"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "8"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/1/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0703782"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "8"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "DANTE SQUARE: via Alfieri - Regional Palace"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.071471"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1212143"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/2/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0719492"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1193359"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "PIAZZA DANTE: FFSS station - city bus terminus"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/3/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "20"@en .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1204627"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "VIA DOGANA: Trento - Malé railway station"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "4"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/4/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0737"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "PIAZZA VICENZA (autosus stop)"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0626263"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "4"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/5/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1334993"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0573694"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.112664"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "24"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/6/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "MONTE BALDO CAR PARK"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0668968"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "DUOMO PARKING: via Sanseverino"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "4"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1151139"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/7/centro/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Bike_sharing> .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0752108"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> <http://knowdive.disi.unitn.it/etype#description> "EX ZUFFO SQUARE"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "8"@en .
+<http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1099861"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Bike_sharing/8/centro/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+

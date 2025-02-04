@@ -1,0 +1,715 @@
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240925"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092520250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024092520250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240925"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024092520250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/32024093020250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024093020250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/102024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/112024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/112024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/112024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/112024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/252024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/252024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/252024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/252024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/522024093020250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/522024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/522024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/522024093020250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/532024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/532024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/532024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/532024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241007"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/592024100720250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/602024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/602024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/602024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/602024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/622024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/622024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/622024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/622024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/662024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/662024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/662024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/662024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091020250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240910"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091020250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091020250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091020250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240916"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241007"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100720250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100720250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241009"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024100920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024101620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241016"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/672024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/682024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/682024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/682024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/682024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/692024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/692024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/692024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/692024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024101620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241016"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/772024101620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1092024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1092024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1092024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1092024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1402024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1402024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1402024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1402024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024091620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1432024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240916"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1442024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1442024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1442024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1442024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1452024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1452024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1452024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1452024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240916"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024091620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1462024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240916"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024091620250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1472024091620250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1482024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1482024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1482024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1482024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1552024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1552024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1552024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[wednesday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1552024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1562024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, wednesday, thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1562024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1562024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1562024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1572024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1572024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[tuesday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1572024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1572024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1642024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1642024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1642024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1642024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1712024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1712024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1712024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1712024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1722024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1722024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250612"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1722024090920250612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/1722024090920250612/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240910"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240911"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024091120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241130"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024093020241130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241018"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024101820250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024103020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday, sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/12024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241030"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920241207/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920241207/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920241207/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241207"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920241207/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240910"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091620250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240916"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091620250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091620250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024091620250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092620250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092620250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092620250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024092620250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240926"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024093020241130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241130"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100720250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100720250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241007"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100720250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100720250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241009"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024101620250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024101620250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241016"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024101620250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024101620250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102520250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241025"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241029"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024102920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241030"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024103020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241201"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024120120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024122320250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241223"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024122320250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024122320250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/22024122320250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240914"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024091420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024093020241130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241130"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024100920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241009"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024100920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241014"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024101420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241025"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102520250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024103020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241030"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024103020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241201"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/42024120120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240910"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240918"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024091820250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024101420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241014"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024101420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102520250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241025"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/52024102520250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091020250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240910"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091020250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091220250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091220250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091220250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091220250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240912"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240914"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091720250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091720250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091720250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240917"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091720250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091820250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240918"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240919"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024091920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240924"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092720250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092720250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092720250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240927"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024092720250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/62024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241130"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024093020241130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024101620241225/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024101620241225/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024101620241225/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241016"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024101620241225/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241225"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024103120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024103120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241031"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024103120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024103120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024120120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241201"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250322/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250322/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250322/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241222"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250322/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250322"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250323/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250323/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241222"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250323/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122220250323/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250323"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250322/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250322"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250322/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241226"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250322/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250322/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250323/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250323"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250323/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241226"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250323/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/72024122620250323/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/92024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/302024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/322024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/322024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/322024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/322024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/352024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/352024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/352024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/352024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/402024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/402024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/402024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/402024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/412024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/412024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/412024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/412024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[wednesday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/502024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/502024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/502024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/502024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240914"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091820250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240918"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024091820250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/822024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024091420250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240914"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024091420250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024092520250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024092520250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240925"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024092520250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024092520250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20241130"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024093020241130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024093020241130/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240930"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241201"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024120120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/4512024120120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[tuesday, wednesday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5552024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024102120250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241021"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024102120250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122320250214/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122320250214/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122320250214/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241223"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122320250214/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250214"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122420250214/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241224"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122420250214/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122420250214/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/5902024122420250214/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250214"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday, saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024120820250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6202024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241208"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6212024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[sunday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6212024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241208"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6212024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6212024120820250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6222024120820250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6222024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6222024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241208"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6222024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024120820250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241208"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024120820250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024121820250316/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241218"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024121820250316/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024121820250316/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250316"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6232024121820250316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6272024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6272024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[tuesday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6272024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6272024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20241018"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024101820250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6362024101820250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6372024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6372024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, tuesday, wednesday, thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6372024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6372024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6462024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6462024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[saturday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6462024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6462024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6512024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6512024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6532024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6532024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6532024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6532024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[monday, thursday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6552024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6552024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[tuesday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6562024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6562024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[thursday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6562024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6562024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6572024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6572024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6572024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6572024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[wednesday]"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6782024090920250627/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_schedule> .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6782024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#byDay> "[tuesday, wednesday, thursday, friday]"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6782024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#end_date> "20250627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_schedule/6782024090920250627/identifier> <http://knowdive.disi.unitn.it/etype#start_date> "20240909"@en .
+

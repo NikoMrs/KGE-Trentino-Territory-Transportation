@@ -1,0 +1,63 @@
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/1/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA SANTA CROCE"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/1/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.12323"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/1/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.064461"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/1/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/2/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA DELLA SCIENZA E DEL LAVORO"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/2/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.059791"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/2/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.11596"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/2/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/3/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.121362"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/3/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - PIAZZA DANTE"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/3/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/3/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.072017"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/3/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/4/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA PETRARCA"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/4/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.074755"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/4/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/4/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/4/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.123907"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/5/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/5/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.075811"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/5/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.109615"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/5/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - PIAZZALE ZUFFO"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/5/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/6/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.118946"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/6/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.090976"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/6/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA GILLI"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/6/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/6/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/7/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA DEGASPERI"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/7/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.044135"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/7/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.129531"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/7/identifier> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/7/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/8/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/8/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - LARGO MEDAGLIE D'ORO"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/8/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/8/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.132683"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/8/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.057744"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Taxi_stand/9/identifier> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/9/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.067866"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/9/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.121281"@en .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/9/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Taxi_stand> .
+<http://knowdive.disi.unitn.it/etype#Taxi_stand/9/identifier> <http://knowdive.disi.unitn.it/etype#name> "TAXI TRENTO - VIA BELENZANI"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+

@@ -1,0 +1,1169 @@
+<http://knowdive.disi.unitn.it/etype#Transit_line/396/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/396/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/396/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cortesano Gardolo P.Dante Villazzano 3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/396/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/396/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/400/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/400/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "5"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/400/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/400/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Piazza Dante P.Fiera Povo Oltrecastello"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/400/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/402/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/402/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Canova Melta Piazza Dante Gocciadoro"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/402/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/402/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "7"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/402/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/404/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "8"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/404/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/404/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/404/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Centochiavi Piazza Dante Mattarello"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/404/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/406/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/406/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/406/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante S.Donà Cognola Villamontagna"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/406/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/406/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "9"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/408/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/408/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante Martignano Cognola / Montevaccino"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/408/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/408/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "10"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/408/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/411/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/411/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/411/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/411/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "12"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/411/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante Via Ghiaie Ravina Romagnano"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/415/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/415/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/415/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante Via Sanseverino Belvedere Ravina"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/415/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/415/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "14"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/425/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "11"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/425/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Piazza Dante Via Brennero Gardolo Spini"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/425/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/425/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/425/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/466/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "13"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/466/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/466/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante Rosmini S.Rocco Povo Polo Soc."@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/466/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/466/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/478/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Piazza Dante Interporto Spini Di Gardolo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/478/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/478/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "15"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/478/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/478/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/484/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/484/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/484/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "16"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/484/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Centochiavi Martignano Cognola Povo"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/484/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/512/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/512/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "7"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/512/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/512/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/512/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Moietto Rosmini Campana Dei Caduti"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/531/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "Fu"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/531/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Funivia Trento Sardagna"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/531/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/531/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "5"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/531/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/533/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "C"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/533/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rsa \"S.Bart.\" \"Angeli Custodi\" Laste"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/533/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/533/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/533/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/535/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/535/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/535/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "5/"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/535/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/535/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante P.Fiera Università Mesiano Povo"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/536/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/536/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ospedale P.Dante Sopramonte"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/536/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/536/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/536/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "1"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/538/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/538/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/538/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/538/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/538/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Piedic. Stazione Osp.S.Chiara Regione Piedic."@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/539/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/539/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "4"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/539/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Gardolo Roncafort Stazione V.Deg. Mad.Bianca"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/539/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/539/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/541/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/541/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "6"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/541/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Vela P.Dante Villazzano Grotta"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/541/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/541/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Brione Cesari Ospedale Podesta' Brione"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "A"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/563/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/563/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/563/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ossario Osp. S.Giorgio Osp. Ossario"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/563/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/563/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/566/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/566/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "AB"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/566/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/566/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Via Magazol S.Giorgio Cornacalda"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/566/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/568/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/568/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Gardolo Gardolo Di Mezzo E Spini"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/568/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "G"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/568/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/568/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/570/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Povo Borino Celva Passo Cimirlo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/570/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/570/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "CM"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/570/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/570/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/578/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/578/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/578/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/578/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "(Volano) Bettini Staz. Lizzana Marco"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/578/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Costa Corso Rosmini S.Giorgio/Ospedale"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "6"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/582/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/582/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/582/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Nomi Villa Lagarina Stazione Mori"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/582/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/582/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "2"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/590/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/590/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/590/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/590/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "03 Peders. Brione Stazione Isera (Lenzima)"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/590/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/592/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Villa Lag. Brione Staz. Isera Lenzima"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/592/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/592/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/592/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "4"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/592/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/594/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "5"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/594/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ospedale Stazione Isera Villa Lagar."@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/594/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/594/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/594/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/598/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Volano Besenello Calliano Nomi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/598/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "V"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/598/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/598/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/598/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/601/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/601/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "P"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/601/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/601/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/601/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Castellano Molini Villa Lagarina"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/602/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/602/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/602/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/602/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "S"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/602/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Savignano Pomarolo"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/607/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/607/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/607/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "01 Lavis Pressano Nave S.Felice Sorni"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/607/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/607/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "L1"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/610/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "L3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/610/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/610/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/610/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "03 Lavis Stazione Fs"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/610/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/612/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/612/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "L4"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/612/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "04 Lavis Zona Industriale Lavis"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/612/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/612/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/613/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/613/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "L2"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/613/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/613/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/613/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "02 Lavis Pressano Masi Sp.131 Sorni"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/614/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante Ospedale Fersina Clarina P.Dante"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/614/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/614/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/614/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/614/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "A"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/615/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/615/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "M"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/615/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Martignano Montevaccino"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/615/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/615/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/617/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Centochiavi Martignano Cognola Povo"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/617/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/617/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "P"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/617/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/617/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/621/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/621/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "N"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/621/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/621/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/621/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Zuffo Via Rosmini Italcementi"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/623/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/623/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/623/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "19"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/623/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Stazione Buc M.Baldo Muse Regione"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/623/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/629/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/629/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "17"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/629/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "P.Dante V.Bolzano Lavis Lavs Ftm"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/629/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/629/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/1/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/1/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/1/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese-Predazzo-Moena-Canazei-Penia"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/1/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B101"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/3/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/3/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento -  Cembra - Capriana - Cavalese"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/3/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B102"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/3/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/3/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/7/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/7/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B114"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/7/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/7/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Casatta di Valfloriana - Palu' - Sicina"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/7/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/55/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/55/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-S.Michele a/A-Salorno-Egna-Ora-Cavalese"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/55/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/55/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/55/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B104"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/60/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/60/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B105"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/60/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/60/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/60/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Verla - Valternigo - Palu' di Giovo"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/63/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/63/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Montesover - Sover"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/63/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B121"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/63/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/63/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/65/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/65/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese - Masi di Cavalese"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/65/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/65/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B109"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/65/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/67/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/67/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese - Carano - Villaggio Veronza"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/67/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B111"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/67/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/67/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/69/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/69/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento - Nogarè - Baselga di Pinè -Montesover"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/69/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/69/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B402"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/69/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/71/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Vezzano-Sarche-Tione"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/71/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B201"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/71/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/71/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/71/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/73/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B216"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/73/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/73/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/73/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/73/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Tione-Bolbeno-Ragoli-Montagne"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/76/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B202"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/76/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Sardagna-Candriai-Vaneze-Vason-Viote"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/76/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/76/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/76/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/78/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/78/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/78/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/78/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B203"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/78/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Vezzano-Ciago-Ranzo-Margone"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/80/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/80/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/80/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B206"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/80/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Cadine-Sopramonte-Terlago-MTerlago"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/80/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/84/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Centrale - Regnana"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/84/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/84/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/84/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/84/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B429"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/86/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/86/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo Valsugana - Olle"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/86/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B408"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/86/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/86/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/90/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B415"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/90/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/90/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/90/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/90/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Levico Terme - Barco - S.Giuliana - Lochere"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/92/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B431"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/92/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/92/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Baselga di Pinè - S.Mauro"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/92/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/92/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/94/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/94/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B413"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/94/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Brusago-Valcava"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/94/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/94/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/96/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/96/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Bedollo-Svaldi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/96/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/96/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/96/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B428"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/98/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/98/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/98/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/98/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B410"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/98/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo Valsugana - Tezze - Primolano"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/102/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/102/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/102/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B501"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/102/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "S.Martino di Castrozza-Fiera di Primiero-Feltre"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/102/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/106/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/106/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/106/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/106/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B504"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/106/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Canal S.Bovo - Ronco Fosse - Ronco Chiesa"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/108/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Borgo Valsugana-Arten-Feltre"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/108/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B512"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/108/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/108/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/108/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/110/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B301"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/110/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/110/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/110/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Besenello-Calliano-Rovereto"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/110/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/116/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/116/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/116/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/116/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Fiera di Primiero-Imer-Canal S.Bovo-Caoria"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/116/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B506"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/117/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese - Daiano - Varena"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/117/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/117/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/117/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B112"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/117/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/120/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/120/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento - Civezzano - Sover - Cavalese"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/120/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/120/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B103"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/120/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/123/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/123/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Borgo V.-Arten-Fiera di P.-S. Martino C."@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/123/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B514"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/123/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/123/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/130/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B122"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/130/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Predazzo-P.sso Rolle-Fiera di P."@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/130/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/130/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/130/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/132/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/132/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/132/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo Valsugana -Roncegno Terme -Ronchi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/132/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/132/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B409"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/134/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B205"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/134/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/134/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Vezzano-Sarche-Dro-Arco-Riva"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/134/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/134/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/136/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B113"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/136/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/136/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/136/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/136/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese - Daiano - Carano - Tesero - Cavalese"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/138/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B404"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/138/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/138/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/138/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Baselga di Pinè - Faida  - Montagnaga"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/138/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/151/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B116"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/151/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento - Civezzano - S.Agnese - Bosco"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/151/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/151/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/151/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/153/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Riva del Garda-Tenno-Fiave'-Ponte Arche"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/153/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B211"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/153/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/153/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/153/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/155/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/155/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B210"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/155/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ponte Arche-S.Croce-Cavrasto-Bivedo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/155/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/155/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/157/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B215"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/157/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Tione-Pieve di Bono-Storo-Baitoni-Ponte Caffaro"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/157/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/157/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/157/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/159/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/159/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/159/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/159/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ponte Arche-Lundo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/159/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B209"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/161/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/161/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/161/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/161/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B208"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/161/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ponte Arche-S.Lorenzo in B.-Molveno"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/164/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/164/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/164/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B213"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/164/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pieve di Bono-Castel Condino-Por"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/164/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/167/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pieve di Bono-Praso-Daone"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/167/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/167/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B212"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/167/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/167/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/169/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo Valsugana -Carzano -Strigno -Samone"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/169/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B406"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/169/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/169/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/169/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/171/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/171/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/171/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Riva-Pregasina-Bezzecca-Storo-Pieve di Bono"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/171/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B214"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/171/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/175/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/175/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B204"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/175/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Vezzano Apt-Vigo Cavedine-Riva del Garda"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/175/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/175/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/177/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B418"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/177/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/177/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/177/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/177/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine-Kamauz-Frassilongo-S.Felice F.-Hacleri"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/179/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine -Canezza -Viarago -S.Orsola -Palù"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/179/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/179/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/179/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/179/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B417"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/181/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B302"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/181/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento -Ravina -Mattarello -Aldeno -Garniga Terme"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/181/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/181/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/181/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/184/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/184/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/184/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/184/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo Valsugana - Telve - Torcegno"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/184/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B407"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/186/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-V.Vattaro-Centa-Carbonare-Lavarone-Luserna"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/186/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B303"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/186/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/186/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/186/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/188/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine Vals.-Ischia-Tenna-Levico Terme"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/188/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B423"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/188/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/188/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/188/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/194/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/194/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B311"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/194/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/194/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Villa-Nomi-Aldeno"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/194/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/196/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Calliano-Folgaria-Lavarone"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/196/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B306"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/196/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/196/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/196/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/198/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B315"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/198/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/198/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/198/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/198/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Terragnolo-Serrada-Folgaria"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/200/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/200/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Mori-Chizzola-Cornè-Ala-Avio"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/200/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/200/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/200/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B307"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/203/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B314"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/203/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/203/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/203/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Riva-Obra di Vallarsa-Ometto"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/203/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/215/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/215/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B312"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/215/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/215/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/215/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Pozzacchio-Raossi-P.Vallarsa-P.Fugazze"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/220/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B310"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/220/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/220/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/220/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Mori-S.Felice-Ronzo Chienis"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/220/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/227/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Caoria-Canal S.Bovo-Feltre"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/227/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/227/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/227/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/227/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B507"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/229/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/229/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/229/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/229/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B230"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/229/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Ciago-Monte Terlago-Ranzo-Margone"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/231/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B305"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/231/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Mori-Brentonico-Saccone"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/231/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/231/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/231/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/233/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/233/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Besagno-Crosano-Cornè-Saccone"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/233/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B319"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/233/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/233/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/235/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Valle S.Felice-Manzano-Nomesino"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/235/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/235/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B318"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/235/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/235/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/300/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine - Civezzano"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/300/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B115"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/300/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/300/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/300/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/309/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/309/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B425"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/309/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine Vals.-Masetti-Assizzi-Vignola-Falesina"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/309/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/309/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/311/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/311/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/311/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Siror - Fiera di Primiero - Imer - Masi Imer"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/311/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/311/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B511"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/316/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B123"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/316/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/316/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/316/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Moena-Passo  S.Pellegrino-Falcade"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/316/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/322/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/322/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/322/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/322/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Vigo Cavedine - Masi di Vigo Cavedine"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/322/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B218"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/324/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè - Rabbi Bagni - Somrabbi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/324/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/324/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/324/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/324/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B640"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/326/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B642"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/326/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè - Folgarida - Madonna di Campiglio"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/326/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/326/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/326/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/328/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/328/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/328/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/328/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B644"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/328/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pellizzano - Menas"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/330/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè - Bolentina"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/330/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B641"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/330/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/330/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/330/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/332/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè-Mezzana-Fucine-Vermiglio-Passo Tonale"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/332/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/332/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B646"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/332/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/332/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/334/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè - Mezzana - Marilleva 1400"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/334/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B643"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/334/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/334/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/334/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/336/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/336/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B645"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/336/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/336/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Malè-Mezzana-Fucine-Cogolo-Peio"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/336/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/340/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/340/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/340/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Mezzolombardo - Roverè della Luna"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/340/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B107"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/340/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/343/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/343/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/343/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/343/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B106"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/343/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Mezzocorona Ferrovia - S.Michele - Faedo Pineta"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/345/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Mezzocorona-Fai d/Paganella-Andalo-Molveno"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/345/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/345/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B611"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/345/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/345/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/352/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/352/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/352/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> " FERROVIA TRENTO - MALE' - MEZZANA"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/352/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "R35"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/352/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/354/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/354/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Mechel"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/354/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/354/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B624"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/354/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/357/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Livo - Bresimo - Lanza di Rumo"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/357/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/357/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/357/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B634"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/357/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/364/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B632"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/364/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/364/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/364/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Revò - Castelfondo - Fondo"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/364/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/366/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/366/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Mezzolombardo-Campodenno-Denno-Cles"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/366/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/366/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/366/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B620"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/368/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/368/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/368/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B627"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/368/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Dermulo - Coredo - Smarano - Sfruz"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/368/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/371/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/371/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Fondo - Tret"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/371/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/371/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B631"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/371/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/375/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B630"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/375/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/375/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/375/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/375/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles -Dermulo -Dambel -Don -Fondo -P.Mendola"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/378/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/378/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/378/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B633"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/378/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/378/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Mostizzolo - Cis"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/395/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/395/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Mezzolombardo - Vigo di Ton -  Toss"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/395/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B615"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/395/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/395/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/397/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cles - Pavillo - Tuenno - Nanno - Portolo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/397/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B623"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/397/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/397/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/397/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/401/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/401/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B625"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/401/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Mollaro - Priò - Vervò - Tres"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/401/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/401/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/417/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/417/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/417/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B863"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/417/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/417/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 3 integrata:Nago-Torbole-Riva-Arco-Bolognano"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/420/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B861"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/420/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 1: Riva -Varone -Arco -S.Giorgio-Brione-Riva"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/420/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/420/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/420/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/423/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/423/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B862"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/423/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/423/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 2: Riva-Brione-S.Giorgio-Arco-Varone-Riva"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/423/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/494/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/494/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B403"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/494/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento - Pergine - Baselga di Pinè - Montesover"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/494/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/494/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/503/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Ala-Masi d'Avio-Avio-Rovereto"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/503/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/503/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B335"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/503/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/503/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/507/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B334"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/507/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/507/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/507/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Ala-Sabbionara-Avio-Masi-Rovereto"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/507/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/520/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/520/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/520/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/520/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B401"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/520/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Pergine V.-Levico T.-Borgo V."@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/522/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Borgo V.- Strigno - Castello Tesino"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/522/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/522/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/522/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B405"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/522/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/526/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/526/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B329"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/526/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/526/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/526/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Pergine-Calceranica-Bosentino-V.Vattaro"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/549/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/549/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/549/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/549/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B461"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/549/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 1 Pergine Valsugana - Madrano - Nogarè"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/551/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/551/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/551/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 2 Pergine-Zivignago-Canezza-Viarago-Serso"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/551/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B462"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/551/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/552/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/552/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/552/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B466"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/552/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/552/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 6 Pergine Valsugana-Costasavina-Roncogno"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/554/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/554/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B464"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/554/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 4 Pergine Valsugana - Ischia"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/554/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/554/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/556/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B463"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/556/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 3 Pergine Valsugana-Masetti-Assizzi-Zava"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/556/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/556/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/556/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 5 Pergine V-Susà-S.Vito-Canale-S.Caterina"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B465"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/562/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Ala-Ronchi di Ala-Ponzolotti"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B336"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/580/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/604/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B120"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/604/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/604/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/604/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Cavalese Autostazione - Ospedale"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/604/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/618/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B503"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/618/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Caoria-Imer-Fiera di Primiero-Voltago-Agordo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/618/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/618/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/618/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/634/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/634/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/634/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/634/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B332"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/634/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Rovereto-Mori-Riva-Arco-Bolognano"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/636/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/636/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/636/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/636/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B231"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/636/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Tione-Pinzolo-Madonna di C.-C.C.Magno"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/638/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/638/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B140"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/638/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/638/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "AAM: Ora-S.Lugano-Castello di Fiemme-Cavalese"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/638/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/640/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B468"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/640/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Linea 8: Pergine I.-Ospedale Villa Rosa-Zivignago"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/640/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/640/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/640/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/647/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/647/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B511"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/647/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/647/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Siror - Fiera  P. - Imer - Canal S.B."@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/647/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/665/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/665/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/665/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/665/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Riva del Garda-Deva-Pranzo-Campi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/665/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B221"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/672/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B869"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/672/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> " Riva del Garda-Deva-Pranzo-Campi"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/672/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/672/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/672/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/687/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/687/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B261"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/687/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/687/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/687/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "SU Vallelaghi: Terlago-M.Terlago-Ciago-Lon-Vezzano"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/691/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Bassano Trentino Trasporti Spa"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/691/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/691/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/691/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/691/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "R25"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/693/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "R26"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/693/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/693/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/693/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Borgo Trentino Trasporti Spa"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/693/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/695/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/695/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Servizi Trenitalia - Andata Tn-Bassano"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/695/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/695/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/695/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "R25"@en .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/696/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/696/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "2"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/696/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "R26"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/696/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Servizi Trenitalia - AndataTn-Borgo"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/696/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/703/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Lavis-Zambana-Nave S.Rocco-Mezzolombardo"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/703/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/703/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/703/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B621"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/703/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/713/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/713/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/713/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Trento-Dermulo-Cles-Malè"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/713/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/713/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B601"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+
+<http://knowdive.disi.unitn.it/etype#Transit_line/717/identifier> <http://knowdive.disi.unitn.it/etype#line_short_name> "B450"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/717/identifier> <http://knowdive.disi.unitn.it/etype#line_long_name> "Servizio sostitutivo treno-Andata"@en .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://knowdive.disi.unitn.it/etype#provides> <http://knowdive.disi.unitn.it/etype#Transit_line/717/identifier> .
+<http://knowdive.disi.unitn.it/etype#Transportation_system/12/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transportation_system> .
+<http://knowdive.disi.unitn.it/etype#Transit_line/717/identifier> <http://knowdive.disi.unitn.it/etype#line_type> "3"@en .
+<http://knowdive.disi.unitn.it/etype#Transit_line/717/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Transit_line> .
+

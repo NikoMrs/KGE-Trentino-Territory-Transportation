@@ -1,0 +1,64 @@
+<http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0862944"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1213919"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/1/identifier> <http://knowdive.disi.unitn.it/etype#description> "in the parking lot near the public park called Mattia Giosafat Garden"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0622824"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the east side of the road near the MUSE"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/2/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1156870"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the right side of the road between the Cassa Rurale and the Pedavena Restaurant"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1232950"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/3/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0646930"@en .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1212781"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the left side of the road near the access to the Park in front of the Palazzo della Regione"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/4/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0711326"@en .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> <http://knowdive.disi.unitn.it/etype#description> "Port'Aquila area - near numbers 37-40"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0695210"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1276610"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/5/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the left side of the road near the access to the Park in front of the Palazzo della Regione"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1212730"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0711500"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/6/identifier> .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#description> "in the parking lot located between the Fogazzaro Swimming Pool and the Hospital, next to the Loto Restaurant"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1312763"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/7/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0561339"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+
+<http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#capacity> "1"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Car_sharing> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#has_a> <http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0654651"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1543070"@en .
+<http://knowdive.disi.unitn.it/etype#Car_sharing/8/identifier> <http://knowdive.disi.unitn.it/etype#description> "on the west side, near the intersection with via Dallafior"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+

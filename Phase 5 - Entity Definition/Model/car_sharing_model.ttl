@@ -1,0 +1,717 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ii5olkmmx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "car_sharing.csv" ;
+	km-dev:modelPublicationTime "1737507918550"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"description\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"city_id\"}],[{\"columnName\":\"capacity\"}],[{\"columnName\":\"latitude\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"description\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"Car_sharing_identifier_uri\"}],[{\"columnName\":\"City_identifier_uri\"}],[{\"columnName\":\"capacity\"}],[{\"columnName\":\"latitude\"}]]" ;
+	km-dev:hasModelLabel "car_sharing.csv" ;
+	km-dev:hasBaseURI "http://knowdive.disi.unitn.it/etype#" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"city_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"City_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"City/\\\" + getValue(\\\"city_id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Car_sharing_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"Car_sharing/\\\" + getValue(\\\"id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Car_sharing_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://knowdive.disi.unitn.it/etype#\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"description\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#description\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Car_sharing/Car_sharing1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"capacity\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#capacity\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Car_sharing/Car_sharing1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"capacity\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"capacity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#latitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Car_sharing/Car_sharing1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#longitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Car_sharing/Car_sharing1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"City_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#City\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#City/City1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Car_sharing_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Car_sharing/Car_sharing1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Car_sharing_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Car_sharing_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Car_sharing1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_a\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Car_sharing\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#City\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 a rr:TriplesMap .
+
+_:node1ii5olkmmx1 km-dev:hasTriplesMap km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx2 rr:tableName "car_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasLogicalTable _:node1ii5olkmmx2 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 rr:logicalTable _:node1ii5olkmmx2 ;
+	rr:subjectMap _:node1ii5olkmmx3 .
+
+_:node1ii5olkmmx1 km-dev:hasSubjectMap _:node1ii5olkmmx3 .
+
+_:node1ii5olkmmx3 km-dev:isPartOfMapping _:node1ii5olkmmx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Car_sharing1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Car_sharing> ;
+	rr:template "Car_sharing/{id}/identifier" .
+
+km-dev:PredicateObjectMap_734b2603-87c9-496e-8e8e-a6c29b999c97 rr:predicate <http://knowdive.disi.unitn.it/etype#description> .
+
+_:node1ii5olkmmx4 rr:column "description" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasObjectMap _:node1ii5olkmmx4 .
+
+km-dev:PredicateObjectMap_734b2603-87c9-496e-8e8e-a6c29b999c97 rr:objectMap _:node1ii5olkmmx4 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 rr:predicateObjectMap km-dev:PredicateObjectMap_734b2603-87c9-496e-8e8e-a6c29b999c97 .
+
+km-dev:PredicateObjectMap_734b2603-87c9-496e-8e8e-a6c29b999c97 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_734b2603-87c9-496e-8e8e-a6c29b999c97 .
+
+km-dev:PredicateObjectMap_3de559f0-a705-44dc-b499-cf0a5486e6ba rr:predicate <http://knowdive.disi.unitn.it/etype#capacity> .
+
+_:node1ii5olkmmx5 rr:column "capacity" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasObjectMap _:node1ii5olkmmx5 .
+
+km-dev:PredicateObjectMap_3de559f0-a705-44dc-b499-cf0a5486e6ba rr:objectMap _:node1ii5olkmmx5 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 rr:predicateObjectMap km-dev:PredicateObjectMap_3de559f0-a705-44dc-b499-cf0a5486e6ba .
+
+km-dev:PredicateObjectMap_3de559f0-a705-44dc-b499-cf0a5486e6ba a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3de559f0-a705-44dc-b499-cf0a5486e6ba .
+
+km-dev:PredicateObjectMap_e4b2e9e6-d15f-4c68-8dd0-5e2b049fcdd9 rr:predicate <http://knowdive.disi.unitn.it/etype#latitude> .
+
+_:node1ii5olkmmx6 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasObjectMap _:node1ii5olkmmx6 .
+
+km-dev:PredicateObjectMap_e4b2e9e6-d15f-4c68-8dd0-5e2b049fcdd9 rr:objectMap _:node1ii5olkmmx6 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 rr:predicateObjectMap km-dev:PredicateObjectMap_e4b2e9e6-d15f-4c68-8dd0-5e2b049fcdd9 .
+
+km-dev:PredicateObjectMap_e4b2e9e6-d15f-4c68-8dd0-5e2b049fcdd9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e4b2e9e6-d15f-4c68-8dd0-5e2b049fcdd9 .
+
+km-dev:PredicateObjectMap_5afb1bf8-fd0e-46aa-bb25-3eb1f774efe1 rr:predicate <http://knowdive.disi.unitn.it/etype#longitude> .
+
+_:node1ii5olkmmx7 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasObjectMap _:node1ii5olkmmx7 .
+
+km-dev:PredicateObjectMap_5afb1bf8-fd0e-46aa-bb25-3eb1f774efe1 rr:objectMap _:node1ii5olkmmx7 .
+
+km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 rr:predicateObjectMap km-dev:PredicateObjectMap_5afb1bf8-fd0e-46aa-bb25-3eb1f774efe1 .
+
+km-dev:PredicateObjectMap_5afb1bf8-fd0e-46aa-bb25-3eb1f774efe1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5afb1bf8-fd0e-46aa-bb25-3eb1f774efe1 .
+
+km-dev:TriplesMap_b053a97c-b503-4b8e-9ea1-b635160cf02c a rr:TriplesMap .
+
+_:node1ii5olkmmx1 km-dev:hasTriplesMap km-dev:TriplesMap_b053a97c-b503-4b8e-9ea1-b635160cf02c .
+
+km-dev:TriplesMap_b053a97c-b503-4b8e-9ea1-b635160cf02c km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx8 rr:tableName "car_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasLogicalTable _:node1ii5olkmmx8 .
+
+km-dev:TriplesMap_b053a97c-b503-4b8e-9ea1-b635160cf02c rr:logicalTable _:node1ii5olkmmx8 ;
+	rr:subjectMap _:node1ii5olkmmx9 .
+
+_:node1ii5olkmmx1 km-dev:hasSubjectMap _:node1ii5olkmmx9 .
+
+_:node1ii5olkmmx9 km-dev:isPartOfMapping _:node1ii5olkmmx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#City1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#City> ;
+	rr:template "City/{city_id}/identifier" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_39781558-38c7-4f60-8d7a-4178f2fb8825 rr:predicate <http://knowdive.disi.unitn.it/etype#has_a> .
+
+km-dev:RefObjectMap_788d808b-580e-486e-9a4f-c2a51a331c84 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_22cc453b-c5a4-4bf7-ba7b-054b77ee5e65 ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasObjectMap km-dev:RefObjectMap_788d808b-580e-486e-9a4f-c2a51a331c84 .
+
+km-dev:PredicateObjectMap_39781558-38c7-4f60-8d7a-4178f2fb8825 rr:objectMap km-dev:RefObjectMap_788d808b-580e-486e-9a4f-c2a51a331c84 .
+
+km-dev:TriplesMap_b053a97c-b503-4b8e-9ea1-b635160cf02c rr:predicateObjectMap km-dev:PredicateObjectMap_39781558-38c7-4f60-8d7a-4178f2fb8825 .
+
+km-dev:PredicateObjectMap_39781558-38c7-4f60-8d7a-4178f2fb8825 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5olkmmx1 .
+
+_:node1ii5olkmmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39781558-38c7-4f60-8d7a-4178f2fb8825 .

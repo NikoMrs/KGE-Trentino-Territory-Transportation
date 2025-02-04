@@ -1,0 +1,873 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ii5omplex1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "parking_facility.csv" ;
+	km-dev:modelPublicationTime "1737507956398"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"type\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"city_id\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"access\"}],[{\"columnName\":\"fee\"}],[{\"columnName\":\"capacity\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"type\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"access\"}],[{\"columnName\":\"fee\"}],[{\"columnName\":\"capacity\"}],[{\"columnName\":\"City_identifier_uri\"}],[{\"columnName\":\"Parking_facility_identifier_uri\"}]]" ;
+	km-dev:hasModelLabel "parking_facility.csv" ;
+	km-dev:hasBaseURI "http://knowdive.disi.unitn.it/etype#" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"city_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"City_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"City/\\\" + getValue(\\\"city_id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Parking_facility_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"Parking_facility/\\\" + getValue(\\\"id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Parking_facility_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://knowdive.disi.unitn.it/etype#\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"access\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#parking_access\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"access\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"access\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"fee\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#parking_fee\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fee\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fee\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"capacity\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#capacity\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"capacity\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"capacity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#parking_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#latitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#longitude\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"City_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#City1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#City\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#City/City1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Parking_facility_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Parking_facility/Parking_facility1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Parking_facility_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Parking_facility_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Parking_facility1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_a\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Parking_facility\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#City1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#City\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 a rr:TriplesMap .
+
+_:node1ii5omplex1 km-dev:hasTriplesMap km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex2 rr:tableName "parking_facility.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasLogicalTable _:node1ii5omplex2 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:logicalTable _:node1ii5omplex2 ;
+	rr:subjectMap _:node1ii5omplex3 .
+
+_:node1ii5omplex1 km-dev:hasSubjectMap _:node1ii5omplex3 .
+
+_:node1ii5omplex3 km-dev:isPartOfMapping _:node1ii5omplex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Parking_facility1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Parking_facility> ;
+	rr:template "Parking_facility/{id}/identifier" .
+
+km-dev:PredicateObjectMap_5506e6bf-5b98-49c8-8e91-2ebc4e9175f6 rr:predicate <http://knowdive.disi.unitn.it/etype#parking_fee> .
+
+_:node1ii5omplex4 rr:column "fee" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex4 .
+
+km-dev:PredicateObjectMap_5506e6bf-5b98-49c8-8e91-2ebc4e9175f6 rr:objectMap _:node1ii5omplex4 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_5506e6bf-5b98-49c8-8e91-2ebc4e9175f6 .
+
+km-dev:PredicateObjectMap_5506e6bf-5b98-49c8-8e91-2ebc4e9175f6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5506e6bf-5b98-49c8-8e91-2ebc4e9175f6 .
+
+km-dev:PredicateObjectMap_435d6c72-e90e-47f8-9332-5ee7c73f9109 rr:predicate <http://knowdive.disi.unitn.it/etype#capacity> .
+
+_:node1ii5omplex5 rr:column "capacity" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex5 .
+
+km-dev:PredicateObjectMap_435d6c72-e90e-47f8-9332-5ee7c73f9109 rr:objectMap _:node1ii5omplex5 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_435d6c72-e90e-47f8-9332-5ee7c73f9109 .
+
+km-dev:PredicateObjectMap_435d6c72-e90e-47f8-9332-5ee7c73f9109 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_435d6c72-e90e-47f8-9332-5ee7c73f9109 .
+
+km-dev:PredicateObjectMap_6f1eb076-c28c-4103-a329-99e38d511f3d rr:predicate <http://knowdive.disi.unitn.it/etype#longitude> .
+
+_:node1ii5omplex6 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex6 .
+
+km-dev:PredicateObjectMap_6f1eb076-c28c-4103-a329-99e38d511f3d rr:objectMap _:node1ii5omplex6 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_6f1eb076-c28c-4103-a329-99e38d511f3d .
+
+km-dev:PredicateObjectMap_6f1eb076-c28c-4103-a329-99e38d511f3d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6f1eb076-c28c-4103-a329-99e38d511f3d .
+
+km-dev:PredicateObjectMap_abb0e64c-bbb2-4eed-93d1-858c5dec23b3 rr:predicate <http://knowdive.disi.unitn.it/etype#parking_access> .
+
+_:node1ii5omplex7 rr:column "access" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex7 .
+
+km-dev:PredicateObjectMap_abb0e64c-bbb2-4eed-93d1-858c5dec23b3 rr:objectMap _:node1ii5omplex7 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_abb0e64c-bbb2-4eed-93d1-858c5dec23b3 .
+
+km-dev:PredicateObjectMap_abb0e64c-bbb2-4eed-93d1-858c5dec23b3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_abb0e64c-bbb2-4eed-93d1-858c5dec23b3 .
+
+km-dev:PredicateObjectMap_b81a868a-66fc-4889-89b8-387e296e4736 rr:predicate <http://knowdive.disi.unitn.it/etype#parking_type> .
+
+_:node1ii5omplex8 rr:column "type" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex8 .
+
+km-dev:PredicateObjectMap_b81a868a-66fc-4889-89b8-387e296e4736 rr:objectMap _:node1ii5omplex8 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_b81a868a-66fc-4889-89b8-387e296e4736 .
+
+km-dev:PredicateObjectMap_b81a868a-66fc-4889-89b8-387e296e4736 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b81a868a-66fc-4889-89b8-387e296e4736 .
+
+km-dev:PredicateObjectMap_39222c24-ed1e-4dfb-8ded-9fbbb7ecbfd9 rr:predicate <http://knowdive.disi.unitn.it/etype#latitude> .
+
+_:node1ii5omplex9 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap _:node1ii5omplex9 .
+
+km-dev:PredicateObjectMap_39222c24-ed1e-4dfb-8ded-9fbbb7ecbfd9 rr:objectMap _:node1ii5omplex9 .
+
+km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 rr:predicateObjectMap km-dev:PredicateObjectMap_39222c24-ed1e-4dfb-8ded-9fbbb7ecbfd9 .
+
+km-dev:PredicateObjectMap_39222c24-ed1e-4dfb-8ded-9fbbb7ecbfd9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39222c24-ed1e-4dfb-8ded-9fbbb7ecbfd9 .
+
+km-dev:TriplesMap_10a6ad0e-86f9-418b-8d25-43eb29990c9d a rr:TriplesMap .
+
+_:node1ii5omplex1 km-dev:hasTriplesMap km-dev:TriplesMap_10a6ad0e-86f9-418b-8d25-43eb29990c9d .
+
+km-dev:TriplesMap_10a6ad0e-86f9-418b-8d25-43eb29990c9d km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex10 rr:tableName "parking_facility.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasLogicalTable _:node1ii5omplex10 .
+
+km-dev:TriplesMap_10a6ad0e-86f9-418b-8d25-43eb29990c9d rr:logicalTable _:node1ii5omplex10 ;
+	rr:subjectMap _:node1ii5omplex11 .
+
+_:node1ii5omplex1 km-dev:hasSubjectMap _:node1ii5omplex11 .
+
+_:node1ii5omplex11 km-dev:isPartOfMapping _:node1ii5omplex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#City1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#City> ;
+	rr:template "City/{city_id}/identifier" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_808ea0a2-44c3-4205-b78f-19863394a981 rr:predicate <http://knowdive.disi.unitn.it/etype#has_a> .
+
+km-dev:RefObjectMap_7d57732e-444a-4986-8e25-0f35088b1518 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f4444278-6c86-4a39-9dd9-811220854f18 ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasObjectMap km-dev:RefObjectMap_7d57732e-444a-4986-8e25-0f35088b1518 .
+
+km-dev:PredicateObjectMap_808ea0a2-44c3-4205-b78f-19863394a981 rr:objectMap km-dev:RefObjectMap_7d57732e-444a-4986-8e25-0f35088b1518 .
+
+km-dev:TriplesMap_10a6ad0e-86f9-418b-8d25-43eb29990c9d rr:predicateObjectMap km-dev:PredicateObjectMap_808ea0a2-44c3-4205-b78f-19863394a981 .
+
+km-dev:PredicateObjectMap_808ea0a2-44c3-4205-b78f-19863394a981 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5omplex1 .
+
+_:node1ii5omplex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_808ea0a2-44c3-4205-b78f-19863394a981 .

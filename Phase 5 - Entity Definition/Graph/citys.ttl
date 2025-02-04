@@ -1,0 +1,10 @@
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.0674444"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "11.1212778"@en .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+<http://knowdive.disi.unitn.it/etype#City/1/identifier> <http://knowdive.disi.unitn.it/etype#geo> "LINESTRING (11.0871922 46.1021305, 11.1141040 46.0322530, 11.1521513 46.0327376, 11.1887278 46.0694963, 11.1696033 46.0896824, 11.1245038 46.1019545, 11.0871922 46.1021305)"@en .
+
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://knowdive.disi.unitn.it/etype#geo> "LINESTRING (12.1950558 46.1457688, 12.1948358 46.1325104, 12.2264577 46.1171669, 12.2587514 46.1185580, 12.2583306 46.1410347, 12.2315986 46.1622145, 12.1949759 46.1458247)"@en .
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://knowdive.disi.unitn.it/etype#longitude> "12.2167090"@en .
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://knowdive.disi.unitn.it/etype#latitude> "46.1424630"@en .
+<http://knowdive.disi.unitn.it/etype#City/2/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City> .
+

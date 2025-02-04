@@ -1,0 +1,467 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ii5c6rnbx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "transportation_special_schedules.csv" ;
+	km-dev:modelPublicationTime "1737494851307"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"exception_type\"}],[{\"columnName\":\"date\"}],[{\"columnName\":\"service_id\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"exception_type\"}],[{\"columnName\":\"date\"}],[{\"columnName\":\"Transportation_schedule_identifier_uri\"}]]" ;
+	km-dev:hasModelLabel "transportation_special_schedules.csv" ;
+	km-dev:hasBaseURI "http://knowdive.disi.unitn.it/etype#" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"service_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Transportation_schedule_identifier_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"Transportation_schedule/\\\" + getValue(\\\"service_id\\\") + \\\"/identifier\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"service_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Transportation_schedule_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://knowdive.disi.unitn.it/etype#\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#date\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule/Transportation_special_schedule1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:dateTime\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"exception_type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#schedule_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule/Transportation_special_schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"exception_type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"exception_type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Transportation_schedule_identifier_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule/Transportation_schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Transportation_schedule_identifier_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Transportation_schedule_identifier_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"DeleteLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#refers_to\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#refers_to\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Transportation_special_schedule\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Transportation_schedule\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 a rr:TriplesMap .
+
+_:node1ii5c6rnbx1 km-dev:hasTriplesMap km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 .
+
+km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx2 rr:tableName "transportation_special_schedules.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasLogicalTable _:node1ii5c6rnbx2 .
+
+km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 rr:logicalTable _:node1ii5c6rnbx2 ;
+	rr:subjectMap _:node1ii5c6rnbx3 .
+
+_:node1ii5c6rnbx1 km-dev:hasSubjectMap _:node1ii5c6rnbx3 .
+
+_:node1ii5c6rnbx3 km-dev:isPartOfMapping _:node1ii5c6rnbx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Transportation_special_schedule1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Transportation_special_schedule> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Transportation_special_schedule1" .
+
+km-dev:PredicateObjectMap_c64ffb93-5162-4c60-8784-7f9ce1a5a5cc rr:predicate <http://knowdive.disi.unitn.it/etype#schedule_type> .
+
+_:node1ii5c6rnbx4 rr:column "exception_type" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasObjectMap _:node1ii5c6rnbx4 .
+
+km-dev:PredicateObjectMap_c64ffb93-5162-4c60-8784-7f9ce1a5a5cc rr:objectMap _:node1ii5c6rnbx4 .
+
+km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 rr:predicateObjectMap km-dev:PredicateObjectMap_c64ffb93-5162-4c60-8784-7f9ce1a5a5cc .
+
+km-dev:PredicateObjectMap_c64ffb93-5162-4c60-8784-7f9ce1a5a5cc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c64ffb93-5162-4c60-8784-7f9ce1a5a5cc .
+
+km-dev:PredicateObjectMap_c35948f7-dd2e-4df6-ba18-5efd615475a9 rr:predicate <http://knowdive.disi.unitn.it/etype#date> .
+
+_:node1ii5c6rnbx5 rr:column "date" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#dateTime" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasObjectMap _:node1ii5c6rnbx5 .
+
+km-dev:PredicateObjectMap_c35948f7-dd2e-4df6-ba18-5efd615475a9 rr:objectMap _:node1ii5c6rnbx5 .
+
+km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 rr:predicateObjectMap km-dev:PredicateObjectMap_c35948f7-dd2e-4df6-ba18-5efd615475a9 .
+
+km-dev:PredicateObjectMap_c35948f7-dd2e-4df6-ba18-5efd615475a9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c35948f7-dd2e-4df6-ba18-5efd615475a9 .
+
+km-dev:TriplesMap_7adf1fd5-cd26-44f1-9991-77ef475118a5 a rr:TriplesMap .
+
+_:node1ii5c6rnbx1 km-dev:hasTriplesMap km-dev:TriplesMap_7adf1fd5-cd26-44f1-9991-77ef475118a5 .
+
+km-dev:TriplesMap_7adf1fd5-cd26-44f1-9991-77ef475118a5 km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx6 rr:tableName "transportation_special_schedules.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasLogicalTable _:node1ii5c6rnbx6 .
+
+km-dev:TriplesMap_7adf1fd5-cd26-44f1-9991-77ef475118a5 rr:logicalTable _:node1ii5c6rnbx6 ;
+	rr:subjectMap _:node1ii5c6rnbx7 .
+
+_:node1ii5c6rnbx1 km-dev:hasSubjectMap _:node1ii5c6rnbx7 .
+
+_:node1ii5c6rnbx7 km-dev:isPartOfMapping _:node1ii5c6rnbx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Transportation_schedule1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Transportation_schedule> ;
+	rr:template "Transportation_schedule/{service_id}/identifier" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_640312be-1219-4f9d-bdf2-ce43e5c0817f rr:predicate <http://knowdive.disi.unitn.it/etype#refers_to> .
+
+km-dev:RefObjectMap_8dd41ea7-4abc-4f8c-b62c-2b5fa701ddfc a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_745090b4-c0fb-4fbb-a4f2-69f0a496d032 ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasObjectMap km-dev:RefObjectMap_8dd41ea7-4abc-4f8c-b62c-2b5fa701ddfc .
+
+km-dev:PredicateObjectMap_640312be-1219-4f9d-bdf2-ce43e5c0817f rr:objectMap km-dev:RefObjectMap_8dd41ea7-4abc-4f8c-b62c-2b5fa701ddfc .
+
+km-dev:TriplesMap_7adf1fd5-cd26-44f1-9991-77ef475118a5 rr:predicateObjectMap km-dev:PredicateObjectMap_640312be-1219-4f9d-bdf2-ce43e5c0817f .
+
+km-dev:PredicateObjectMap_640312be-1219-4f9d-bdf2-ce43e5c0817f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ii5c6rnbx1 .
+
+_:node1ii5c6rnbx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_640312be-1219-4f9d-bdf2-ce43e5c0817f .
