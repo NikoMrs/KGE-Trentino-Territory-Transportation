@@ -32,18 +32,5 @@ The project's output consists of a final [Knowledge Graph](https://github.com/Ni
 ![Preview](Phase%206%20-%20Evaluation%20%26%20Exploitation/GraphDB.PNG)
 
 ## Repository
-The complete work can be found in the [repository](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation), and the entire process is described in the final [report]().
-
-
-
-
-
-
-
-
-
-
-
-
-
+The complete work can be found in the [repository](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation), and the entire process is described in the final [report](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/blob/main/README.md).
 
