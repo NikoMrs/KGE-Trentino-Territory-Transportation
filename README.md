@@ -29,7 +29,7 @@ public transports and other transport services available”
 ## Knowledge Graph
 The project's output consists of a final [Knowledge Graph](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/tree/main/Phase%205%20-%20Entity%20Definition/Graph) and the corresponding [Mapping Model](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/tree/main/Phase%205%20-%20Entity%20Definition/Model). The KG has been evaluated following the criteria defined by the iTelos methodology, and a demonstration of its capabilities was carried out using [GraphDB](https://graphdb.ontotext.com/), which allowed querying the graph to verify its ability to answer the Competency Questions defined at the start of the project.
 
-![Preview](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/blob/main/Phase%206%20-%20Evaluation%20%26%20Exploitation/GraphDB.PNG)
+![Preview](Phase%206%20-%20Evaluation%20%26%20Exploitation/GraphDB.PNG)
 
 ## Repository
 The complete work can be found in the [repository](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation), and the entire process is described in the final [report]().
