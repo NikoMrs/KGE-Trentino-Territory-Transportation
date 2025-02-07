@@ -12,6 +12,10 @@ public transports and other transport services available”
 - **Spatial domain**: Trentino region and in particular the Trento city
 - **Timespan**: from September 2024 to the end of June 2025
 
+## Entity–relation model
+Throughout the project, the first step involved formalizing the Project Purpose by designing an Entity-Relation (ER) model using the IDEF1X notation. This model represents the initial version of the final Knowledge Layer.
+![Preview](Phase%201%20-%20Purpose%20Formalization/ER.png)
+
 ## Data Resources
 - **[OPENdata Trentino](https://dati.trentino.it/dataset)**: Open data Trentino is a platform, managed by the autonomous province of Trento, that offers an unique catalogue of reusable data and allows the search, access and download of open data about Trentino and services in its territory.
 - **[OpenStreetMap](https://www.openstreetmap.org/#map=6/42.09/12.56)**: OpenStreetMap is a collaborative project that provides free and editable maps of the world, also maintaining geographic data about roads, trails, railway stations, and so on. 
@@ -30,6 +34,9 @@ public transports and other transport services available”
 The project's output consists of a final [Knowledge Graph](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/tree/main/Phase%205%20-%20Entity%20Definition/Graph) and the corresponding [Mapping Model](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/tree/main/Phase%205%20-%20Entity%20Definition/Model). The KG has been evaluated following the criteria defined by the iTelos methodology, and a demonstration of its capabilities was carried out using [GraphDB](https://graphdb.ontotext.com/), which allowed querying the graph to verify its ability to answer the Competency Questions defined at the start of the project.
 
 ![Preview](Phase%206%20-%20Evaluation%20%26%20Exploitation/GraphDB.PNG)
+
+## Metadata
+To effectively share and allow the reuse of the results obtained in this project,  a structured set of metadata has been defined, as required by the iTelos methodology. These metadata play a fundamental role in organizing and describing the information in a standardized way, facilitating accessibility and interoperability. Specifically, they are categorized into three main groups: People, Project and Dataset Metadata. All of them are accessible [here](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/blob/main/Phase%207%20-%20Metadata/Metadata.xlsx).
 
 ## Repository
 The complete work can be found in the [repository](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation), and the entire process is described in the final [report](https://github.com/NikoMrs/KGE-Trentino-Territory-Transportation/blob/main/Documentation/Final_Project_Report.pdf).
